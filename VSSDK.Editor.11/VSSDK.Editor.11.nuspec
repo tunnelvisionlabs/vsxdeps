@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.Editor.11</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Editor" reference assembly used by Visual Studio 2012 and newer.
+    </description>
+    <summary>Visual Studio (Editor) for Visual Studio 2012+</summary>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework="net40"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2012 -->
+      <dependency id="VSSDK.IDE.11" version="[11.0.0,12.0.0)"/>
+      <!--
+      Exposed Dependencies:
+        Microsoft.VisualStudio.CoreUtility
+        Microsoft.VisualStudio.OLE.Interop
+        Microsoft.VisualStudio.Text.Data
+        Microsoft.VisualStudio.Text.Logic
+        Microsoft.VisualStudio.Text.UI
+        Microsoft.VisualStudio.Text.UI.Wpf
+        Microsoft.VisualStudio.TextManager.Interop
+        Microsoft.VisualStudio.TextManager.Interop.8.0
+        PresentationFramework
+        WindowsBase
+      -->
+      <dependency id="VSSDK.CoreUtility.11" version="[11.0.0,12.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.Text.11" version="[11.0.0,12.0.0)"/>
+      <dependency id="VSSDK.TextManager.Interop.10" version="[10.0.0,11.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Editor.dll" target="lib\net45"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Editor.xml" target="lib\net45"/>
+  </files>
+</package>

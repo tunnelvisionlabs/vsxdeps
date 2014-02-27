@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.Shell.Immutable.11</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Shell Immutable" reference assembly used by Visual Studio 2012 and newer.
+    </description>
+    <summary>Visual Studio (Shell Immutable) for Visual Studio 2012+</summary>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System" targetFramework="net40"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2012 -->
+      <dependency id="VSSDK.IDE.11" version="[11.0.0,12.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.Shell.Immutable.11.0.dll):
+        Microsoft.VisualStudio.GraphModel
+        Microsoft.VisualStudio.OLE.Interop
+        Microsoft.VisualStudio.Shell.Interop
+        PresentationCore
+        System
+      -->
+      <dependency id="VSSDK.GraphModel.11" version="[11.0.0,12.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop.10" version="[10.0.0,11.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Shell.Immutable.11.0.dll" target="lib\net45"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Shell.Immutable.11.0.xml" target="lib\net45"/>
+  </files>
+</package>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.Language.CSharp.12</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "C# Language Service" reference assembly used by Visual Studio 2013.
+    </description>
+    <summary>Visual Studio (C# Language Service) for Visual Studio 2013</summary>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Core" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework="net40"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2013 -->
+      <dependency id="VSSDK.IDE.12" version="[12.0.0,13.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.CSharp.Services.Language.dll):
+        EnvDTE
+        EnvDTE80
+        Microsoft.VisualStudio.CSharp.Services.Language.Interop
+        Microsoft.VisualStudio.Language.CallHierarchy
+        Microsoft.VisualStudio.OLE.Interop
+        Microsoft.VisualStudio.Shell.12.0
+        Microsoft.VisualStudio.Shell.Interop.11.0
+        Microsoft.VisualStudio.Text.Data
+        Microsoft.VisualStudio.TextManager.Interop
+        Microsoft.VisualStudio.TextManager.Interop.8.0
+        PresentationCore
+        System
+        System.Core
+        WindowsBase
+
+      Exposed Dependencies (Microsoft.VisualStudio.CSharp.Services.Language.Interop.dll):
+        (none)
+      -->
+      <dependency id="VSSDK.DTE.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.TextManager.Interop.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.Shell.12" version="[12.0.0,13.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop.11" version="[11.0.0,12.0.0)"/>
+      <dependency id="VSSDK.Text.12" version="[12.0.0,13.0.0)"/>
+      <dependency id="VSSDK.Language.CallHierarchy.12" version="[12.0.0,13.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSIDE$\Microsoft.VisualStudio.CSharp.Services.Language.dll" target="lib\net45"/>
+
+    <file src="$VSIDE$\Microsoft.VisualStudio.CSharp.Services.Language.Interop.dll" target="lib\net45"/>
+  </files>
+</package>

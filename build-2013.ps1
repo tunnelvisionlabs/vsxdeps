@@ -13,25 +13,25 @@ $packages = @(
 	'VSSDK.IDE.12'
 
 	# Immuatble COM-interop packages
-	'Tvl.VisualStudio.Dependencies.Shell.Interop.12'
+	'VSSDK.Shell.Interop.12'
 
 	# Immutable managed assemblies that ship with newer versions of Visual Studio
-	'Tvl.VisualStudio.Dependencies.Shell.Immutable.12'
+	'VSSDK.Shell.Immutable.12'
 
 	# Managed packages with binding redirects in newer versions of Visual Studio
-	'Tvl.VisualStudio.Dependencies.CoreUtility.12'
-	'Tvl.VisualStudio.Dependencies.Data.12'
-	'Tvl.VisualStudio.Dependencies.Editor.12'
-	'Tvl.VisualStudio.Dependencies.GraphModel.12'
-	'Tvl.VisualStudio.Dependencies.Language.12'
-	'Tvl.VisualStudio.Dependencies.LanguageService.12'
-	'Tvl.VisualStudio.Dependencies.Shell.12'
-	'Tvl.VisualStudio.Dependencies.Text.12'
-	'Tvl.VisualStudio.Dependencies.Threading.12'
+	'VSSDK.CoreUtility.12'
+	'VSSDK.Data.12'
+	'VSSDK.Editor.12'
+	'VSSDK.GraphModel.12'
+	'VSSDK.Language.12'
+	'VSSDK.LanguageService.12'
+	'VSSDK.Shell.12'
+	'VSSDK.Text.12'
+	'VSSDK.Threading.12'
 
 	# Managed packages which are not compatible with newer versions of Visual Studio
-	'Tvl.VisualStudio.Dependencies.Language.CallHierarchy.12'
-	'Tvl.VisualStudio.Dependencies.Language.CSharp.12'
+	'VSSDK.Language.CallHierarchy.12'
+	'VSSDK.Language.CSharp.12'
 )
 
 # Create the output folder if it doesn't exist

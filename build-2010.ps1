@@ -13,27 +13,27 @@ $packages = @(
 	'VSSDK.IDE.10'
 
 	# Immuatble COM-interop packages
-	'Tvl.VisualStudio.Dependencies.DTE.10'
-	'Tvl.VisualStudio.Dependencies.VSLangProj.10'
-	'Tvl.VisualStudio.Dependencies.OLE.Interop.10'
-	'Tvl.VisualStudio.Dependencies.Shell.Interop.10'
-	'Tvl.VisualStudio.Dependencies.TextManager.Interop.10'
+	'VSSDK.DTE.10'
+	'VSSDK.VSLangProj.10'
+	'VSSDK.OLE.Interop.10'
+	'VSSDK.Shell.Interop.10'
+	'VSSDK.TextManager.Interop.10'
 
 	# Immutable managed assemblies that ship with newer versions of Visual Studio
-	'Tvl.VisualStudio.Dependencies.Shell.Immutable.10'
+	'VSSDK.Shell.Immutable.10'
 
 	# Managed packages with binding redirects in newer versions of Visual Studio
-	'Tvl.VisualStudio.Dependencies.CoreUtility.10'
-	'Tvl.VisualStudio.Dependencies.Data.10'
-	'Tvl.VisualStudio.Dependencies.Editor.10'
-	'Tvl.VisualStudio.Dependencies.Language.10'
-	'Tvl.VisualStudio.Dependencies.LanguageService.10'
-	'Tvl.VisualStudio.Dependencies.Shell.10'
-	'Tvl.VisualStudio.Dependencies.Text.10'
+	'VSSDK.CoreUtility.10'
+	'VSSDK.Data.10'
+	'VSSDK.Editor.10'
+	'VSSDK.Language.10'
+	'VSSDK.LanguageService.10'
+	'VSSDK.Shell.10'
+	'VSSDK.Text.10'
 
 	# Managed packages which are not compatible with newer versions of Visual Studio
-	'Tvl.VisualStudio.Dependencies.Language.CallHierarchy.10'
-	'Tvl.VisualStudio.Dependencies.Language.CSharp.10'
+	'VSSDK.Language.CallHierarchy.10'
+	'VSSDK.Language.CSharp.10'
 )
 
 # Create the output folder if it doesn't exist
