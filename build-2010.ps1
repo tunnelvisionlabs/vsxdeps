@@ -6,6 +6,7 @@ $OutDir = 'packages-2010'
 
 $packages = @(
 	'Tvl.VisualStudio.Dependencies.10'
+	'Tvl.VisualStudio.Dependencies.DTE.10'
 )
 
 # Create the output folder if it doesn't exist
