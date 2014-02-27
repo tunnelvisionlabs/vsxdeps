@@ -25,6 +25,7 @@ $packages = @(
 	# Managed packages with binding redirects in newer versions of Visual Studio
 	'Tvl.VisualStudio.Dependencies.CoreUtility.10'
 	'Tvl.VisualStudio.Dependencies.Data.10'
+	'Tvl.VisualStudio.Dependencies.Language.10'
 	'Tvl.VisualStudio.Dependencies.Shell.10'
 	'Tvl.VisualStudio.Dependencies.Text.10'
 
