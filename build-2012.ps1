@@ -1,4 +1,8 @@
-param([string]$MSEnv = 'C:\Program Files (x86)\Common Files\microsoft shared\MSEnv')
+param(
+	[string]$MSEnv = 'C:\Program Files (x86)\Common Files\microsoft shared\MSEnv',
+	[string]$VSSDK = 'C:\Program Files (x86)\Microsoft Visual Studio 11.0\VSSDK',
+	[string]$VSIDE = 'C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE'
+)
 
 $nuget = '.\.nuget\NuGet.exe'
 $Version = '11.0.0-alpha001'
@@ -17,5 +21,5 @@ if (!(Test-Path $OutDir))
 
 foreach ($package in $packages)
 {
-	&$nuget pack "$package\$package.nuspec" -Version $Version -OutputDirectory $OutDir -Prop MSEnv=$MSEnv
+	&$nuget pack "$package\$package.nuspec" -Version $Version -OutputDirectory $OutDir -Prop MSEnv=$MSEnv -Prop VSSDK=$VSSDK -Prop VSIDE=$VSIDE
 }
