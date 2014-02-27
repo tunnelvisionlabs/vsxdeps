@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Tvl.VisualStudio.Dependencies.Shell.10</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Shell" reference assembly used by Visual Studio 2010+.
+    </description>
+    <summary>Visual Studio (Shell) for Visual Studio 2010+</summary>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Design" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework="net40"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2010 -->
+      <dependency id="Tvl.VisualStudio.Dependencies.10" version="[10.0.0,11.0.0)"/>
+      <!--
+      Exposed Dependencies:
+        EnvDTE
+        Microsoft.VisualStudio.OLE.Interop
+        *Microsoft.VisualStudio.Settings
+        Microsoft.VisualStudio.Shell.Immutable.10.0
+        Microsoft.VisualStudio.Shell.Interop
+        Microsoft.VisualStudio.Shell.Interop.8.0
+        Microsoft.VisualStudio.Shell.Interop.9.0
+        Microsoft.VisualStudio.TextManager.Interop
+        PresentationCore
+        PresentationFramework
+        System
+        System.Design
+        System.Drawing
+        System.Windows.Forms
+        WindowsBase
+      -->
+      <dependency id="Tvl.VisualStudio.Dependencies.DTE.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="Tvl.VisualStudio.Dependencies.OLE.Interop.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="Tvl.VisualStudio.Dependencies.Shell.Immutable.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="Tvl.VisualStudio.Dependencies.Shell.Interop.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="Tvl.VisualStudio.Dependencies.TextManager.Interop.10" version="[10.0.0,11.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Shell.10.0.dll" target="lib\net40"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Shell.10.0.xml" target="lib\net40"/>
+  </files>
+</package>
