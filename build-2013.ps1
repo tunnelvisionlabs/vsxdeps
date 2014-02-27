@@ -12,9 +12,13 @@ $packages = @(
 	# Visual Studio 2013 Metadata Package
 	'Tvl.VisualStudio.Dependencies.12'
 
+	# Immutable managed assemblies that ship with newer versions of Visual Studio
+	'Tvl.VisualStudio.Dependencies.Shell.Immutable.12'
+
 	# Managed packages with binding redirects in newer versions of Visual Studio
 	'Tvl.VisualStudio.Dependencies.CoreUtility.12'
 	'Tvl.VisualStudio.Dependencies.Data.12'
+	'Tvl.VisualStudio.Dependencies.GraphModel.12'
 	'Tvl.VisualStudio.Dependencies.Shell.12'
 	'Tvl.VisualStudio.Dependencies.Text.12'
 	'Tvl.VisualStudio.Dependencies.Threading.12'

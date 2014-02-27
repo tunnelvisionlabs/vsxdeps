@@ -19,6 +19,9 @@ $packages = @(
 	'Tvl.VisualStudio.Dependencies.Shell.Interop.10'
 	'Tvl.VisualStudio.Dependencies.TextManager.Interop.10'
 
+	# Immutable managed assemblies that ship with newer versions of Visual Studio
+	'Tvl.VisualStudio.Dependencies.Shell.Immutable.10'
+
 	# Managed packages with binding redirects in newer versions of Visual Studio
 	'Tvl.VisualStudio.Dependencies.CoreUtility.10'
 	'Tvl.VisualStudio.Dependencies.Data.10'
