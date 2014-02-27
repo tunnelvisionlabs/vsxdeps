@@ -9,7 +9,11 @@ $Version = '12.0.0-alpha001'
 $OutDir = 'packages-2013'
 
 $packages = @(
+	# Visual Studio 2013 Metadata Package
 	'Tvl.VisualStudio.Dependencies.12'
+
+	# Managed packages with binding redirects in newer versions of Visual Studio
+	'Tvl.VisualStudio.Dependencies.CoreUtility.12'
 )
 
 # Create the output folder if it doesn't exist

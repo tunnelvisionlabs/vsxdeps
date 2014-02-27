@@ -9,9 +9,15 @@ $Version = '10.0.0-alpha001'
 $OutDir = 'packages-2010'
 
 $packages = @(
+	# Visual Studio 2010 Metadata Package
 	'Tvl.VisualStudio.Dependencies.10'
+
+	# Immuatble COM-interop packages
 	'Tvl.VisualStudio.Dependencies.DTE.10'
 	'Tvl.VisualStudio.Dependencies.VSLangProj.10'
+
+	# Managed packages with binding redirects in newer versions of Visual Studio
+	'Tvl.VisualStudio.Dependencies.CoreUtility.10'
 )
 
 # Create the output folder if it doesn't exist
