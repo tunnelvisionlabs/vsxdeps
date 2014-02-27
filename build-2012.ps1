@@ -25,6 +25,7 @@ $packages = @(
 	'Tvl.VisualStudio.Dependencies.Editor.11'
 	'Tvl.VisualStudio.Dependencies.GraphModel.11'
 	'Tvl.VisualStudio.Dependencies.Language.11'
+	'Tvl.VisualStudio.Dependencies.LanguageService.11'
 	'Tvl.VisualStudio.Dependencies.Shell.11'
 	'Tvl.VisualStudio.Dependencies.Text.11'
 
