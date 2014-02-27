@@ -30,6 +30,7 @@ $packages = @(
 
 	# Managed packages which are not compatible with newer versions of Visual Studio
 	'Tvl.VisualStudio.Dependencies.Language.CallHierarchy.12'
+	'Tvl.VisualStudio.Dependencies.Language.CSharp.12'
 )
 
 # Create the output folder if it doesn't exist
