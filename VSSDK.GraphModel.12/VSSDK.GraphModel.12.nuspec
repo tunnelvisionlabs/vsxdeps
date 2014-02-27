@@ -9,6 +9,7 @@
       This package provides the Visual Studio "Graph Model" reference assembly used by Visual Studio 2013 and newer.
     </description>
     <summary>Visual Studio (Graph Model) for Visual Studio 2013+</summary>
+    <tags>vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
       <frameworkAssembly assemblyName="System" targetFramework="net40"/>

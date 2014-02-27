@@ -9,6 +9,7 @@
       This package provides the Visual Studio "Threading" reference assembly used by Visual Studio 2013+.
     </description>
     <summary>Visual Studio (Threading) for Visual Studio 2013+</summary>
+    <tags>vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System.Core" targetFramework="net40"/>
     </frameworkAssemblies>

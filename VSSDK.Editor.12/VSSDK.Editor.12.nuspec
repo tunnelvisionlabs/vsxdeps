@@ -9,6 +9,7 @@
       This package provides the Visual Studio "Editor" reference assembly used by Visual Studio 2013 and newer.
     </description>
     <summary>Visual Studio (Editor) for Visual Studio 2013+</summary>
+    <tags>vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="PresentationFramework" targetFramework="net40"/>
       <frameworkAssembly assemblyName="WindowsBase" targetFramework="net40"/>

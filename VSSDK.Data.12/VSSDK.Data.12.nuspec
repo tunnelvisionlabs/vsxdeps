@@ -9,6 +9,7 @@
       This package provides the Visual Studio "Data" reference assemblies used by Visual Studio 2013 and newer.
     </description>
     <summary>Visual Studio (Data) for Visual Studio 2013+</summary>
+    <tags>vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net40"/>
       <frameworkAssembly assemblyName="System.Data" targetFramework="net40"/>

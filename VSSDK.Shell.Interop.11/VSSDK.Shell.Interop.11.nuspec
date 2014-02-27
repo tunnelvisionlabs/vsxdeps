@@ -9,6 +9,7 @@
       This package provides the Visual Studio "Shell" COM-interop assemblies used by Visual Studio 2012 and newer.
     </description>
     <summary>Visual Studio (Shell Interop) for Visual Studio 2012+</summary>
+    <tags>vs2012 vs2013</tags>
     <dependencies>
       <!-- Visual Studio 2012 -->
       <dependency id="VSSDK.IDE.11" version="[11.0.0,12.0.0)"/>

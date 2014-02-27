@@ -9,6 +9,7 @@
       This package provides the Visual Studio "Text Editor" reference assemblies used by Visual Studio 2012+.
     </description>
     <summary>Visual Studio (Text Editor) for Visual Studio 2012+</summary>
+    <tags>vs2012 vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net40"/>
       <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>

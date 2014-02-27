@@ -9,6 +9,7 @@
       This package provides the Visual Studio "C# Language Service" reference assembly used by Visual Studio 2013.
     </description>
     <summary>Visual Studio (C# Language Service) for Visual Studio 2013</summary>
+    <tags>vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net40"/>
       <frameworkAssembly assemblyName="System.Core" targetFramework="net40"/>

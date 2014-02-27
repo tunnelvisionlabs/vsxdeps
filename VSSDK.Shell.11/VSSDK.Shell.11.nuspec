@@ -9,6 +9,7 @@
       This package provides the Visual Studio "Shell" reference assembly used by Visual Studio 2012+.
     </description>
     <summary>Visual Studio (Shell) for Visual Studio 2012+</summary>
+    <tags>vs2012 vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
       <frameworkAssembly assemblyName="PresentationFramework" targetFramework="net40"/>

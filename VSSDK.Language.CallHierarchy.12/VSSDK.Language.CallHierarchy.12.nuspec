@@ -9,6 +9,7 @@
       This package provides the Visual Studio "Call Hierarchy" reference assemblies used by Visual Studio 2013.
     </description>
     <summary>Visual Studio (Call Hierarchy) for Visual Studio 2013</summary>
+    <tags>vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
       <frameworkAssembly assemblyName="WindowsBase" targetFramework="net40"/>

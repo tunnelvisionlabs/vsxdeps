@@ -9,6 +9,7 @@
       This package provides the Visual Studio "MPF Language Service" reference assembly used by Visual Studio 2012 and newer.
     </description>
     <summary>Visual Studio (MPF Language Service) for Visual Studio 2012+</summary>
+    <tags>vs2012 vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="Microsoft.MSXML" targetFramework="net40"/>
       <frameworkAssembly assemblyName="System" targetFramework="net40"/>

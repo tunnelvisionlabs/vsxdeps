@@ -9,6 +9,7 @@
       This is a metadata-only package used as a dependency for reference packages and extensions that target Visual Studio 2010 and newer.
     </description>
     <summary>Visual Studio 2010+</summary>
+    <tags>vs2010 vs2012 vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net40"/>
     </frameworkAssemblies>
