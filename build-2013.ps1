@@ -12,6 +12,9 @@ $packages = @(
 	# Visual Studio 2013 Metadata Package
 	'Tvl.VisualStudio.Dependencies.12'
 
+	# Immuatble COM-interop packages
+	'Tvl.VisualStudio.Dependencies.Shell.Interop.12'
+
 	# Immutable managed assemblies that ship with newer versions of Visual Studio
 	'Tvl.VisualStudio.Dependencies.Shell.Immutable.12'
 

@@ -14,6 +14,7 @@ $packages = @(
 
 	# Immuatble COM-interop packages
 	'Tvl.VisualStudio.Dependencies.VSLangProj.11'
+	'Tvl.VisualStudio.Dependencies.Shell.Interop.11'
 
 	# Immutable managed assemblies that ship with newer versions of Visual Studio
 	'Tvl.VisualStudio.Dependencies.Shell.Immutable.11'
