@@ -18,6 +18,9 @@ $packages = @(
 	# Managed packages with binding redirects in newer versions of Visual Studio
 	'Tvl.VisualStudio.Dependencies.CoreUtility.11'
 	'Tvl.VisualStudio.Dependencies.Data.11'
+
+	# Managed packages which are not compatible with newer versions of Visual Studio
+	'Tvl.VisualStudio.Dependencies.Language.CallHierarchy.11'
 )
 
 # Create the output folder if it doesn't exist
