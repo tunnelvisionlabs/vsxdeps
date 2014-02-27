@@ -17,6 +17,7 @@ $packages = @(
 
 	# Managed packages with binding redirects in newer versions of Visual Studio
 	'Tvl.VisualStudio.Dependencies.CoreUtility.11'
+	'Tvl.VisualStudio.Dependencies.Data.11'
 )
 
 # Create the output folder if it doesn't exist
