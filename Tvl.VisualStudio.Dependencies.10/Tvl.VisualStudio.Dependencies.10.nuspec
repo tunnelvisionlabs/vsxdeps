@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Tvl.VisualStudio.Dependencies.10</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This is a metadata-only package used as a dependency for reference packages and extensions that target Visual Studio 2010 and newer.
+    </description>
+    <summary>Visual Studio 2010+</summary>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net40"/>
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+  </files>
+</package>
