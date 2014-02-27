@@ -7,6 +7,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       This package provides the Visual Studio "Editor" reference assembly used by Visual Studio 2013 and newer.
+
+      Microsoft.VisualStudio.Editor.dll
     </description>
     <summary>Visual Studio (Editor) for Visual Studio 2013+</summary>
     <tags>vs2013</tags>

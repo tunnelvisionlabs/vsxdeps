@@ -7,6 +7,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       This package provides the Visual Studio "Language" reference assemblies used by Visual Studio 2010 and newer.
+
+      Microsoft.VisualStudio.Language.Intellisense.dll
+      Microsoft.VisualStudio.Language.StandardClassification.dll
     </description>
     <summary>Visual Studio (Language) for Visual Studio 2010+</summary>
     <tags>vs2010 vs2012 vs2013</tags>

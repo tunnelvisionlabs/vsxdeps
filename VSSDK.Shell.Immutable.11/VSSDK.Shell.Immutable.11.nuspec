@@ -7,6 +7,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       This package provides the Visual Studio "Shell Immutable" reference assembly used by Visual Studio 2012 and newer.
+
+      Microsoft.VisualStudio.Shell.Immutable.11.0.dll
     </description>
     <summary>Visual Studio (Shell Immutable) for Visual Studio 2012+</summary>
     <tags>vs2012 vs2013</tags>

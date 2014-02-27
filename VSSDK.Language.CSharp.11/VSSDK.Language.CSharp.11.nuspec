@@ -7,6 +7,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       This package provides the Visual Studio "C# Language Service" reference assembly used by Visual Studio 2012.
+
+      Microsoft.VisualStudio.CSharp.Services.Language.dll
+      Microsoft.VisualStudio.CSharp.Services.Language.Interop.dll
     </description>
     <summary>Visual Studio (C# Language Service) for Visual Studio 2012</summary>
     <tags>vs2012</tags>

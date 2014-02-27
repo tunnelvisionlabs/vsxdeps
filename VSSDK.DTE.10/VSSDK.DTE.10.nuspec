@@ -7,6 +7,13 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       This package provides the Automation and Extensibility (EnvDTE) COM-interop assemblies used by Visual Studio 2010 and newer.
+
+      EnvDTE.dll
+      EnvDTE80.dll
+      EnvDTE90.dll
+      EnvDTE90a.dll
+      EnvDTE100.dll
+      stdole.dll
     </description>
     <summary>Automation and Extensibility (EnvDTE) for Visual Studio 2010+</summary>
     <tags>vs2010 vs2012 vs2013</tags>

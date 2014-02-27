@@ -7,6 +7,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       This package provides the Visual Studio "Data" reference assemblies used by Visual Studio 2013 and newer.
+
+      Microsoft.VisualStudio.Data.dll
+      Microsoft.VisualStudio.Data.Core.dll
+      Microsoft.VisualStudio.Data.Framework.dll
+      Microsoft.VisualStudio.Data.Services.dll
     </description>
     <summary>Visual Studio (Data) for Visual Studio 2013+</summary>
     <tags>vs2013</tags>

@@ -7,6 +7,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       This package provides the Visual Studio "OLE" COM-interop assemblies used by Visual Studio 2010 and newer.
+
+      Microsoft.VisualStudio.OLE.Interop.dll
     </description>
     <summary>Visual Studio (OLE Interop) for Visual Studio 2010+</summary>
     <tags>vs2010 vs2012 vs2013</tags>

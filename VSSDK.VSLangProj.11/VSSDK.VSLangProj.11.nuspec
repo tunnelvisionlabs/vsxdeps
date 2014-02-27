@@ -7,6 +7,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       This package provides the Automation and Extensibility (VSLangProj) COM-interop assemblies used by Visual Studio 2012 and newer.
+
+      VSLangProj110.dll
     </description>
     <summary>Automation and Extensibility (VSLangProj) for Visual Studio 2012+</summary>
     <tags>vs2012 vs2013</tags>

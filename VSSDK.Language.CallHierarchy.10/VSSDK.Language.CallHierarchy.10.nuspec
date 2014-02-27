@@ -7,6 +7,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       This package provides the Visual Studio "Call Hierarchy" reference assemblies used by Visual Studio 2010.
+
+      Microsoft.VisualStudio.Language.CallHierarchy.dll
+      Microsoft.VisualStudio.CallHierarchy.Package.Definitions.dll
     </description>
     <summary>Visual Studio (Call Hierarchy) for Visual Studio 2010</summary>
     <tags>vs2010</tags>

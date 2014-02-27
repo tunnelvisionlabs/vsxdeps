@@ -7,6 +7,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       This package provides the Visual Studio "Text Manager" COM-interop assemblies used by Visual Studio 2010 and newer.
+
+      Microsoft.VisualStudio.TextManager.Interop.dll
+      Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+      Microsoft.VisualStudio.TextManager.Interop.9.0.dll
+      Microsoft.VisualStudio.TextManager.Interop.10.0.dll
     </description>
     <summary>Visual Studio (Text Manager Interop) for Visual Studio 2010+</summary>
     <tags>vs2010 vs2012 vs2013</tags>
