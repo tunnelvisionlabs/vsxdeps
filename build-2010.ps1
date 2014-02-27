@@ -15,6 +15,9 @@ $packages = @(
 	# Immuatble COM-interop packages
 	'Tvl.VisualStudio.Dependencies.DTE.10'
 	'Tvl.VisualStudio.Dependencies.VSLangProj.10'
+	'Tvl.VisualStudio.Dependencies.OLE.Interop.10'
+	'Tvl.VisualStudio.Dependencies.Shell.Interop.10'
+	'Tvl.VisualStudio.Dependencies.TextManager.Interop.10'
 
 	# Managed packages with binding redirects in newer versions of Visual Studio
 	'Tvl.VisualStudio.Dependencies.CoreUtility.10'
