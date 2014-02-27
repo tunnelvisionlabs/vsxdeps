@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Tvl.VisualStudio.Dependencies.Text.10</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Text Editor" reference assemblies used by Visual Studio 2010+.
+    </description>
+    <summary>Visual Studio (Text Editor) for Visual Studio 2010+</summary>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework="net40"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2010 -->
+      <dependency id="Tvl.VisualStudio.Dependencies.10" version="[10.0.0,11.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.Text.Data.dll):
+        Microsoft.VisualStudio.CoreUtility
+
+      Exposed Dependencies (Microsoft.VisualStudio.Text.Logic.dll):
+        Microsoft.VisualStudio.CoreUtility
+        Microsoft.VisualStudio.Text.Data
+        System
+
+      Exposed Dependencies (Microsoft.VisualStudio.Text.UI.dll):
+        Microsoft.VisualStudio.CoreUtility
+        Microsoft.VisualStudio.Text.Data
+        Microsoft.VisualStudio.Text.Logic
+
+      Exposed Dependencies (Microsoft.VisualStudio.Text.UI.Wpf.dll):
+        Microsoft.VisualStudio.CoreUtility
+        Microsoft.VisualStudio.Text.Data
+        Microsoft.VisualStudio.Text.Logic
+        Microsoft.VisualStudio.Text.UI
+        PresentationCore
+        PresentationFramework
+        WindowsBase
+      -->
+      <dependency id="Tvl.VisualStudio.Dependencies.CoreUtility.10" version="[10.0.0,11.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Text.Data.dll" target="lib\net40"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Text.Data.xml" target="lib\net40"/>
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Text.Logic.dll" target="lib\net40"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Text.Logic.xml" target="lib\net40"/>
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Text.UI.dll" target="lib\net40"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Text.UI.xml" target="lib\net40"/>
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Text.UI.Wpf.dll" target="lib\net40"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Text.UI.Wpf.xml" target="lib\net40"/>
+  </files>
+</package>
