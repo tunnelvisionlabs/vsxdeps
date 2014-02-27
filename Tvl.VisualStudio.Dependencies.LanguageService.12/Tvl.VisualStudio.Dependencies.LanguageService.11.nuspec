@@ -18,7 +18,7 @@
     </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2013 -->
-      <dependency id="Tvl.VisualStudio.Dependencies.12" version="[12.0.0,13.0.0)"/>
+      <dependency id="VSSDK.IDE.12" version="[12.0.0,13.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.Package.LanguageService.12.0.dll):
         Microsoft.MSXML

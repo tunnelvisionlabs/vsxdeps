@@ -15,7 +15,7 @@
     </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2012 -->
-      <dependency id="Tvl.VisualStudio.Dependencies.11" version="[11.0.0,12.0.0)"/>
+      <dependency id="VSSDK.IDE.11" version="[11.0.0,12.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.Language.Intellisense.dll):
         Microsoft.VisualStudio.CoreUtility

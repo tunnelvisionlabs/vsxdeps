@@ -10,7 +10,7 @@ $OutDir = 'packages-2013'
 
 $packages = @(
 	# Visual Studio 2013 Metadata Package
-	'Tvl.VisualStudio.Dependencies.12'
+	'VSSDK.IDE.12'
 
 	# Immuatble COM-interop packages
 	'Tvl.VisualStudio.Dependencies.Shell.Interop.12'
