@@ -21,6 +21,8 @@
 
     <!-- Reference assemblies -->
 
+    <file src="$MSEnv$\PublicAssemblies\stdole.dll" target="lib\net20"/>
+
     <file src="$MSEnv$\PublicAssemblies\envdte.dll" target="lib\net20"/>
     <file src="$MSEnv$\PublicAssemblies\EnvDTE.xml" target="lib\net20"/>
 
