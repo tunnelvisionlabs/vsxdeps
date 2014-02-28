@@ -36,6 +36,7 @@ $packages = @(
 	# Managed packages which are not compatible with newer versions of Visual Studio
 	'VSSDK.Language.CallHierarchy.12'
 	'VSSDK.Language.CSharp.12'
+	'VSSDK.ServerExplorer.12'
 )
 
 # Create the output folder if it doesn't exist
