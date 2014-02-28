@@ -14,8 +14,9 @@ $packages = @(
 	'VSSDK.IDE.11Only'
 
 	# Immuatble COM-interop packages
-	'VSSDK.VSLangProj.11'
+	'VSSDK.Debugger.Interop.11'
 	'VSSDK.Shell.Interop.11'
+	'VSSDK.VSLangProj.11'
 
 	# Immutable managed assemblies that ship with newer versions of Visual Studio
 	'VSSDK.Shell.Immutable.11'

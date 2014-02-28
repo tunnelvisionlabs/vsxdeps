@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.Debugger.Interop.10</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Debugger" COM-interop reference assemblies used by Visual Studio 2010 and newer.
+
+      Microsoft.VisualStudio.Debugger.InteropA.dll
+      Microsoft.VisualStudio.Debugger.Interop.10.0.dll
+    </description>
+    <summary>Visual Studio (Debugger Interop) for Visual Studio 2010+</summary>
+    <tags>vs2010 vs2012 vs2013</tags>
+    <dependencies>
+      <!-- Visual Studio 2010 -->
+      <dependency id="VSSDK.IDE.10" version="[10.0.0,11.0.0)"/>
+      <!--
+      Exposed Dependencies:
+        Microsoft.VisualStudio.OLE.Interop
+        stdole
+      -->
+      <dependency id="VSSDK.OLE.Interop.10" version="[10.0.0,11.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v2.0\Microsoft.VisualStudio.Debugger.InteropA.dll" target="lib\net40"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v2.0\Microsoft.VisualStudio.Debugger.InteropA.xml" target="lib\net40"/>
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v2.0\Microsoft.VisualStudio.Debugger.Interop.10.0.dll" target="lib\net40"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v2.0\Microsoft.VisualStudio.Debugger.Interop.10.0.xml" target="lib\net40"/>
+  </files>
+</package>

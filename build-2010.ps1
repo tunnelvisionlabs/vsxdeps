@@ -14,8 +14,9 @@ $packages = @(
 	'VSSDK.IDE.10Only'
 
 	# Immuatble COM-interop packages
-	'VSSDK.DTE.10'
+	'VSSDK.Debugger.Interop.10'
 	'VSSDK.Designer.10'
+	'VSSDK.DTE.10'
 	'VSSDK.VSLangProj.10'
 	'VSSDK.OLE.Interop.10'
 	'VSSDK.Shell.Interop.10'
