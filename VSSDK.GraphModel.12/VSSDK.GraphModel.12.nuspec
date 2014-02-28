@@ -11,7 +11,7 @@
       Microsoft.VisualStudio.GraphModel.dll
     </description>
     <summary>Visual Studio (Graph Model) for Visual Studio 2013+</summary>
-    <tags>vs2013</tags>
+    <tags>vssdk vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
       <frameworkAssembly assemblyName="System" targetFramework="net40"/>

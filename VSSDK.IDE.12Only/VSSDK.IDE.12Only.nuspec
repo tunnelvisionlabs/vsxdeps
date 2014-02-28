@@ -11,7 +11,7 @@
       If you find this package installed in an extension that is supposed to target any other version of Visual Studio, use NuGet to uninstall the package and it will report the specific dependencies that are causing the incompatibility.
     </description>
     <summary>Visual Studio 2013 Only</summary>
-    <tags>vs2013</tags>
+    <tags>vssdk vs2013</tags>
     <dependencies>
       <!-- Visual Studio 2013 -->
       <dependency id="VSSDK.IDE.12" version="[12.0.0,13.0.0)"/>

@@ -12,7 +12,7 @@
       Microsoft.VisualStudio.CallHierarchy.Package.Definitions.dll
     </description>
     <summary>Visual Studio (Call Hierarchy) for Visual Studio 2010</summary>
-    <tags>vs2010</tags>
+    <tags>vssdk vs2010</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
       <frameworkAssembly assemblyName="WindowsBase" targetFramework="net40"/>

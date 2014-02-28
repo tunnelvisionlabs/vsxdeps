@@ -11,7 +11,7 @@
       VSLangProj110.dll
     </description>
     <summary>Automation and Extensibility (VSLangProj) for Visual Studio 2012+</summary>
-    <tags>vs2012 vs2013</tags>
+    <tags>vssdk vs2012 vs2013</tags>
     <dependencies>
       <!-- Visual Studio 2012 -->
       <dependency id="VSSDK.IDE.10" version="[10.0.0,11.0.0)"/>

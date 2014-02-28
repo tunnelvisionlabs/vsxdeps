@@ -12,7 +12,7 @@
       Microsoft.VisualStudio.CallHierarchy.Package.Definitions.dll
     </description>
     <summary>Visual Studio (Call Hierarchy) for Visual Studio 2013</summary>
-    <tags>vs2013</tags>
+    <tags>vssdk vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
       <frameworkAssembly assemblyName="WindowsBase" targetFramework="net40"/>

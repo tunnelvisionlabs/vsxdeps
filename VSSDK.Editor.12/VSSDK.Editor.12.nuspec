@@ -11,7 +11,7 @@
       Microsoft.VisualStudio.Editor.dll
     </description>
     <summary>Visual Studio (Editor) for Visual Studio 2013+</summary>
-    <tags>vs2013</tags>
+    <tags>vssdk vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="PresentationFramework" targetFramework="net40"/>
       <frameworkAssembly assemblyName="WindowsBase" targetFramework="net40"/>

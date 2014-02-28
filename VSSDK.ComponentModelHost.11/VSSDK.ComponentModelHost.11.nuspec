@@ -11,7 +11,7 @@
       Microsoft.VisualStudio.ComponentModelHost.dll
     </description>
     <summary>Visual Studio (MEF Component Model Host) for Visual Studio 2012+</summary>
-    <tags>vs2012 vs2013</tags>
+    <tags>vssdk vs2012 vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework="net40"/>
     </frameworkAssemblies>
