@@ -21,6 +21,7 @@ $packages = @(
 	'VSSDK.Shell.Immutable.11'
 
 	# Managed packages with binding redirects in newer versions of Visual Studio
+	'VSSDK.ComponentModelHost.11'
 	'VSSDK.CoreUtility.11'
 	'VSSDK.Data.11'
 	'VSSDK.Editor.11'
