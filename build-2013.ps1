@@ -28,6 +28,7 @@ $packages = @(
 	'VSSDK.GraphModel.12'
 	'VSSDK.Language.12'
 	'VSSDK.LanguageService.12'
+	'VSSDK.NavigateTo.12'
 	'VSSDK.Shell.12'
 	'VSSDK.Text.12'
 	'VSSDK.Threading.12'

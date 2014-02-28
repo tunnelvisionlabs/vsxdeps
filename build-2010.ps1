@@ -32,6 +32,7 @@ $packages = @(
 	'VSSDK.Editor.10'
 	'VSSDK.Language.10'
 	'VSSDK.LanguageService.10'
+	'VSSDK.NavigateTo.10'
 	'VSSDK.Shell.10'
 	'VSSDK.Text.10'
 
