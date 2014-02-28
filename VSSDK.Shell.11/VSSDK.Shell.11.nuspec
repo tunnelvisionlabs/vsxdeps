@@ -52,6 +52,9 @@
       <dependency id="VSSDK.Shell.Immutable.11" version="[11.0.0,12.0.0)"/>
       <dependency id="VSSDK.Shell.Interop.10" version="[10.0.0,11.0.0)"/>
       <dependency id="VSSDK.TextManager.Interop.10" version="[10.0.0,11.0.0)"/>
+
+      <!-- The following are required due to embedded interop types. -->
+      <dependency id="VSSDK.Shell.Interop.11" version="[11.0.0,12.0.0)"/>
     </dependencies>
   </metadata>
   <files>
