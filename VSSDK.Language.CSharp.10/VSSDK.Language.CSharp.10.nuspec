@@ -19,8 +19,8 @@
       <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
     </frameworkAssemblies>
     <dependencies>
-      <!-- Visual Studio 2010 -->
-      <dependency id="VSSDK.IDE.10" version="[10.0.0,11.0.0)"/>
+      <!-- Visual Studio 2010 Only -->
+      <dependency id="VSSDK.IDE.10Only" version="[10.0.0,11.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.CSharp.Services.Language.dll):
         EnvDTE

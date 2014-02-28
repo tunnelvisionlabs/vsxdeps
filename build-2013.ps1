@@ -11,6 +11,7 @@ $OutDir = 'packages-2013'
 $packages = @(
 	# Visual Studio 2013 Metadata Package
 	'VSSDK.IDE.12'
+	'VSSDK.IDE.12Only'
 
 	# Immuatble COM-interop packages
 	'VSSDK.Shell.Interop.12'

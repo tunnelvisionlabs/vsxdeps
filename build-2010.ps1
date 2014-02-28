@@ -11,6 +11,7 @@ $OutDir = 'packages-2010'
 $packages = @(
 	# Visual Studio 2010 Metadata Package
 	'VSSDK.IDE.10'
+	'VSSDK.IDE.10Only'
 
 	# Immuatble COM-interop packages
 	'VSSDK.DTE.10'
