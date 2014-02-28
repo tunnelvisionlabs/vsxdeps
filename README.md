@@ -35,3 +35,7 @@ These packages indicate support for a *minimum* version of Visual Studio. Extens
 ### Managing Visual Studio Versions
 
 The packages above are described in terms of *restrictions*. For example, if your extension references both **VSSDK.IDE.10** and **VSSDK.IDE.11**, the stronger restrictions imposed by **VSSDK.IDE.11** are the ones that apply to your extension as a whole. If you find that a reference is more restrictive than you intended for your project, you can use the NuGet Package Manager to attempt to uninstall the reference. The uninstallation will fail if your extension references assemblies that impose those restrictions, and inform you of the changes required before the restriction can be lifted. For the previously described case, uninstalling **VSSDK.IDE.11** would result in the extension supporting Visual Studio 2010 and newer, as opposed to just Visual Studio 2012 and newer.
+
+## Supporting Additional Packages
+
+The current packages only provide a subset of the available assemblies used by Visual Studio extensions. If your extension requires references to Visual Studio assemblies which are not currently provided through NuGet, please [create a new issue](https://github.com/tunnelvisionlabs/vsxdeps/issues) requesting a package be created for the new assembly. Make sure to include the complete name of every assembly file which should be included in the package.
