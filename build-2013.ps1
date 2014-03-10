@@ -32,6 +32,7 @@ $packages = @(
 	'VSSDK.Shell.12'
 	'VSSDK.Text.12'
 	'VSSDK.Threading.12'
+	'VSSDK.TemplateWizardInterface.12'
 
 	# Managed packages which are not compatible with newer versions of Visual Studio
 	'VSSDK.Language.CallHierarchy.12'
