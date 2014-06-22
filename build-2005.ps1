@@ -12,6 +12,9 @@ $packages = @(
 	# Visual Studio 2005 Metadata Package
 	'VSSDK.IDE.8'
 	'VSSDK.IDE.8Only'
+
+	# Immutable COM-interop packages
+	'VSSDK.DTE.8'
 )
 
 # Create the output folder if it doesn't exist

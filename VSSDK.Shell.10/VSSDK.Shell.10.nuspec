@@ -42,7 +42,7 @@
         System.Windows.Forms
         WindowsBase
       -->
-      <dependency id="VSSDK.DTE.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.DTE" version="[7.0.0,8.0.0)"/>
       <dependency id="VSSDK.OLE.Interop" version="[7.0.0,8.0.0)"/>
       <dependency id="VSSDK.Shell.Immutable.10" version="[10.0.0,11.0.0)"/>
       <dependency id="VSSDK.Shell.Interop.10" version="[10.0.0,11.0.0)"/>

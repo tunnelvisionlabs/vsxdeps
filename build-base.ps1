@@ -14,6 +14,7 @@ $packages = @(
 
 	# Immutable COM-interop packages
 	'VSSDK.Designer'
+	'VSSDK.DTE'
 	'VSSDK.OLE.Interop'
 )
 

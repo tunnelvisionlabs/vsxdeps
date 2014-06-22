@@ -19,7 +19,7 @@
       Exposed Dependencies (Microsoft.VisualStudio.TemplateWizardInterface.dll):
         EnvDTE
       -->
-      <dependency id="VSSDK.DTE.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.DTE" version="[7.0.0,8.0.0)"/>
     </dependencies>
   </metadata>
   <files>

@@ -39,7 +39,8 @@
       Exposed Dependencies (Microsoft.VisualStudio.CSharp.Services.Language.Interop.dll):
         (none)
       -->
-      <dependency id="VSSDK.DTE.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.DTE" version="[7.0.0,8.0.0)"/>
+      <dependency id="VSSDK.DTE.8" version="[8.0.0,9.0.0)"/>
       <dependency id="VSSDK.OLE.Interop" version="[7.0.0,8.0.0)"/>
       <dependency id="VSSDK.TextManager.Interop.10" version="[10.0.0,11.0.0)"/>
       <dependency id="VSSDK.Shell.10" version="[10.0.0,11.0.0)"/>
