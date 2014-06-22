@@ -4,7 +4,7 @@ foreach ($reference in $project.Object.References)
 {
 	switch -regex ($reference.Name.ToLowerInvariant())
 	{
-	"^microsoft\.visualstudio\.debugger\.interop\.10\.0$"
+	"^microsoft\.visualstudio\.debugger\.interopa$"
 		{
 			$reference.CopyLocal = $false;
 			$reference.EmbedInteropTypes = $false;

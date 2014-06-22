@@ -19,9 +19,10 @@
       Exposed Dependencies:
         Microsoft.VisualStudio.Debugger.InteropA
       -->
-      <dependency id="VSSDK.Debugger.Interop.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.Debugger.Interop.9" version="[9.0.0,10.0.0)"/>
 
-      <!-- Included because this assembly would be useless without the complete debugger interop -->
+      <!-- Reference previous versions of the Debugger Interop assemblies -->
+      <dependency id="VSSDK.Debugger.Interop.10" version="[10.0.0,11.0.0)"/>
       <dependency id="VSSDK.Debugger.Interop.11" version="[11.0.0,12.0.0)"/>
     </dependencies>
   </metadata>

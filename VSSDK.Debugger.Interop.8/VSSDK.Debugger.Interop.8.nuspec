@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.Debugger.Interop.8</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Debugger" COM-interop reference assemblies used by Visual Studio 2005.
+      While this package works with Visual Studio 2008 and newer, it is highly recommended that the
+      VSSDK.Debugger.Interop.9 package be installed instead of this one unless the assembly specifically targets
+      Visual Studio 2005.
+
+      Microsoft.VisualStudio.Debugger.Interop.dll
+    </description>
+    <summary>Visual Studio (Debugger Interop) for Visual Studio 2005</summary>
+    <tags>vssdk vs2005</tags>
+    <dependencies>
+      <!-- Visual Studio 2005 -->
+      <dependency id="VSSDK.IDE.8" version="[8.0.0,9.0.0)"/>
+      <!--
+      Exposed Dependencies:
+        Microsoft.VisualStudio.OLE.Interop
+        stdole
+      -->
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.0,8.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\2007.02\VisualStudioIntegration\Common\Assemblies\Microsoft.VisualStudio.Debugger.Interop.dll" target="lib\net20"/>
+  </files>
+</package>

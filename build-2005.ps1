@@ -14,6 +14,7 @@ $packages = @(
 	'VSSDK.IDE.8Only'
 
 	# Immutable COM-interop packages
+	'VSSDK.Debugger.Interop.8'
 	'VSSDK.DTE.8'
 )
 
