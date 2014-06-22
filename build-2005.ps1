@@ -18,6 +18,7 @@ $packages = @(
 	'VSSDK.DTE.8'
 	'VSSDK.Shell.Interop.8'
 	'VSSDK.TextManager.Interop.8'
+	'VSSDK.VSLangProj.8'
 )
 
 # Create the output folder if it doesn't exist

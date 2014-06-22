@@ -4,7 +4,7 @@ foreach ($reference in $project.Object.References)
 {
 	switch -regex ($reference.Name.ToLowerInvariant())
 	{
-	"^vslangproj100$"
+	"^vslangproj80$"
 		{
 			$reference.CopyLocal = $false;
 			$reference.EmbedInteropTypes = $false;

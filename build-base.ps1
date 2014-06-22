@@ -18,6 +18,7 @@ $packages = @(
 	'VSSDK.OLE.Interop'
 	'VSSDK.Shell.Interop'
 	'VSSDK.TextManager.Interop'
+	'VSSDK.VSLangProj'
 )
 
 # Create the output folder if it doesn't exist
