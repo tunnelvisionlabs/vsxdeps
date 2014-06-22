@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.Shell.8</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Shell" reference assembly used by Visual Studio 2005 and newer.
+
+      Microsoft.VisualStudio.Shell.dll
+    </description>
+    <summary>Visual Studio (Shell) for Visual Studio 2005+</summary>
+    <tags>vssdk vs2005 vs2008 vs2010 vs2012 vs2013</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net20"/>
+      <frameworkAssembly assemblyName="System.Design" targetFramework="net20"/>
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="net20"/>
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework="net20"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2005 -->
+      <dependency id="VSSDK.IDE.8" version="[8.0.0,9.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.Shell.dll):
+        EnvDTE
+        Microsoft.VisualStudio.OLE.Interop
+        Microsoft.VisualStudio.Shell
+        Microsoft.VisualStudio.Shell.Interop
+        Microsoft.VisualStudio.Shell.Interop.8.0
+        Microsoft.VisualStudio.TextManager.Interop
+        System
+        System.Design
+        System.Drawing
+        System.Windows.Forms
+      -->
+      <dependency id="VSSDK.DTE" version="[7.0.0,8.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.0,8.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop" version="[7.0.0,8.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop.8" version="[8.0.0,9.0.0)"/>
+      <dependency id="VSSDK.TextManager.Interop" version="[7.0.0,8.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\2007.02\VisualStudioIntegration\Common\Assemblies\Microsoft.VisualStudio.Shell.dll" target="lib\net20"/>
+    <file src="$VSSDK$\2007.02\VisualStudioIntegration\Common\Assemblies\Microsoft.VisualStudio.Shell.xml" target="lib\net20"/>
+  </files>
+</package>

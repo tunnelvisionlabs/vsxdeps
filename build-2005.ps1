@@ -19,6 +19,9 @@ $packages = @(
 	'VSSDK.Shell.Interop.8'
 	'VSSDK.TextManager.Interop.8'
 	'VSSDK.VSLangProj.8'
+
+	# Managed packages with binding redirects in newer versions of Visual Studio
+	'VSSDK.Shell.8'
 )
 
 # Create the output folder if it doesn't exist
