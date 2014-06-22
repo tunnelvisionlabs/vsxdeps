@@ -16,6 +16,8 @@ $packages = @(
 	# Immutable COM-interop packages
 	'VSSDK.Debugger.Interop.9'
 	'VSSDK.DTE.9'
+	'VSSDK.Shell.Interop.9'
+	'VSSDK.TextManager.Interop.9'
 )
 
 # Create the output folder if it doesn't exist

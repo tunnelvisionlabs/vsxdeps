@@ -16,6 +16,8 @@ $packages = @(
 	'VSSDK.Designer'
 	'VSSDK.DTE'
 	'VSSDK.OLE.Interop'
+	'VSSDK.Shell.Interop'
+	'VSSDK.TextManager.Interop'
 )
 
 # Create the output folder if it doesn't exist

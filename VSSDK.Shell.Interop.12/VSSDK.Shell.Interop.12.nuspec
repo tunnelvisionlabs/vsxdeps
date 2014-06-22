@@ -24,8 +24,12 @@
         Microsoft.VisualStudio.Shell.Interop.8.0
       -->
       <dependency id="VSSDK.OLE.Interop" version="[7.0.0,8.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop" version="[7.0.0,8.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop.8" version="[8.0.0,9.0.0)"/>
       <dependency id="VSSDK.Shell.Interop.10" version="[10.0.0,11.0.0)"/>
       <dependency id="VSSDK.Shell.Interop.11" version="[11.0.0,12.0.0)"/>
+      <!-- Also reference version from 2008 -->
+      <dependency id="VSSDK.Shell.Interop.9" version="[9.0.0,10.0.0)"/>
     </dependencies>
   </metadata>
   <files>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.Shell.Interop.8</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Shell" COM-interop assemblies used by Visual Studio 2005 and newer.
+
+      Microsoft.VisualStudio.Shell.Interop.8.0.dll
+    </description>
+    <summary>Visual Studio (Shell Interop) for Visual Studio 2005+</summary>
+    <tags>vssdk vs2005 vs2008 vs2010 vs2012 vs2013</tags>
+    <dependencies>
+      <!-- Visual Studio 2005 -->
+      <dependency id="VSSDK.IDE.8" version="[8.0.0,9.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.Shell.Interop.8.0.dll):
+        Microsoft.VisualStudio.OLE.Interop
+        Microsoft.VisualStudio.Shell.Interop
+        Microsoft.VisualStudio.TextManager.Interop
+        Microsoft.VisualStudio.TextManager.Interop.8.0
+      -->
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.0,8.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop" version="[7.0.0,8.0.0)"/>
+      <dependency id="VSSDK.TextManager.Interop" version="[7.0.0,8.0.0)"/>
+      <dependency id="VSSDK.TextManager.Interop.8" version="[8.0.0,9.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\2007.02\VisualStudioIntegration\Common\Assemblies\Microsoft.VisualStudio.Shell.Interop.8.0.dll" target="lib\net20"/>
+    <file src="$VSSDK$\2007.02\VisualStudioIntegration\Common\Assemblies\Microsoft.VisualStudio.Shell.Interop.8.0.xml" target="lib\net20"/>
+  </files>
+</package>
