@@ -21,6 +21,7 @@ $packages = @(
 	'VSSDK.VSLangProj.9'
 
 	# Managed packages with binding redirects in newer versions of Visual Studio
+	'VSSDK.DebuggerVisualizers.9'
 	'VSSDK.Shell.9'
 )
 

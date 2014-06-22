@@ -24,6 +24,7 @@ $packages = @(
 	'VSSDK.ComponentModelHost.12'
 	'VSSDK.CoreUtility.12'
 	'VSSDK.Data.12'
+	'VSSDK.DebuggerVisualizers.12'
 	'VSSDK.Editor.12'
 	'VSSDK.GraphModel.12'
 	'VSSDK.Language.12'
