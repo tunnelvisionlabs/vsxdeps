@@ -27,7 +27,7 @@
         Microsoft.VisualStudio.TextManager.Interop.8.0
       -->
       <dependency id="VSSDK.CoreUtility.10" version="[10.0.0,11.0.0)"/>
-      <dependency id="VSSDK.OLE.Interop.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.0,8.0.0)"/>
       <dependency id="VSSDK.Text.10" version="[10.0.0,11.0.0)"/>
       <dependency id="VSSDK.TextManager.Interop.10" version="[10.0.0,11.0.0)"/>
     </dependencies>

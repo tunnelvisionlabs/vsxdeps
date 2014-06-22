@@ -32,7 +32,7 @@
         Microsoft.VisualStudio.TextManager.Interop
         Microsoft.VisualStudio.TextManager.Interop.8.0
       -->
-      <dependency id="VSSDK.OLE.Interop.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.0,8.0.0)"/>
 
       <!-- This would cause a circular dependency; Shell depended on TextManager first so we keep that one. -->
       <!--<dependency id="VSSDK.Shell.Interop.10" version="[10.0.0,11.0.0)"/>-->

@@ -14,6 +14,7 @@ $packages = @(
 
 	# Immutable COM-interop packages
 	'VSSDK.Designer'
+	'VSSDK.OLE.Interop'
 )
 
 # Create the output folder if it doesn't exist
