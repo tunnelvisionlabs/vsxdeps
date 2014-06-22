@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.Designer</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Designer" reference assemblies used by Visual Studio 2003 and newer.
+
+      Microsoft.VisualStudio.Designer.Interfaces.dll
+    </description>
+    <summary>Visual Studio (Data) for Visual Studio 2003+</summary>
+    <tags>vssdk vs2003 vs2005 vs2008 vs2010 vs2012 vs2013</tags>
+    <dependencies>
+      <!-- Visual Studio Base -->
+      <dependency id="VSSDK.IDE" version="[7.0.0,8.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.Designer.Interfaces.dll):
+        (none)
+      -->
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v2.0\Microsoft.VisualStudio.Designer.Interfaces.dll" target="lib\net20"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v2.0\Microsoft.VisualStudio.Designer.Interfaces.xml" target="lib\net20"/>
+  </files>
+</package>

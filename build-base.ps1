@@ -11,6 +11,9 @@ $OutDir = 'packages-base'
 $packages = @(
 	# Visual Studio Base Metadata Package
 	'VSSDK.IDE'
+
+	# Immutable COM-interop packages
+	'VSSDK.Designer'
 )
 
 # Create the output folder if it doesn't exist
