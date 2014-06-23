@@ -18,6 +18,7 @@ $packages = @(
 	'VSSDK.OLE.Interop'
 	'VSSDK.Shell.Interop'
 	'VSSDK.TextManager.Interop'
+	'VSSDK.VSHelp'
 	'VSSDK.VSLangProj'
 )
 
