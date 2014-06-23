@@ -23,6 +23,7 @@ $packages = @(
 	# Managed packages with binding redirects in newer versions of Visual Studio
 	'VSSDK.DebuggerVisualizers.9'
 	'VSSDK.Shell.9'
+	'VSSDK.TemplateWizardInterface.9'
 )
 
 # Create the output folder if it doesn't exist

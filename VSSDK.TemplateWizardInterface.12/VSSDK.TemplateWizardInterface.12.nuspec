@@ -29,6 +29,7 @@
 
     <!-- Reference assemblies -->
 
-    <file src="$VSIDE$\PublicAssemblies\Microsoft.VisualStudio.TemplateWizardInterface.dll" target="lib\net40"/>
+    <file src="$VSIDE$\PublicAssemblies\Microsoft.VisualStudio.TemplateWizardInterface.dll" target="lib\net20"/>
+    <file src="$VSIDE$\PublicAssemblies\Microsoft.VisualStudio.TemplateWizardInterface.xml" target="lib\net20"/>
   </files>
 </package>
