@@ -17,7 +17,7 @@
     </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2005 -->
-      <dependency id="VSSDK.IDE.8" version="[8.0.0,9.0.0)"/>
+      <dependency id="VSSDK.IDE.8" version="[8.0.2,9.0.0)"/>
       <!--
       Exposed Dependencies:
         System.Windows.Forms

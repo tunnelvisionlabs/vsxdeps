@@ -21,7 +21,7 @@
     </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2012 Only -->
-      <dependency id="VSSDK.IDE.11Only" version="[11.0.0,12.0.0)"/>
+      <dependency id="VSSDK.IDE.11Only" version="[11.0.2,12.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.CSharp.Services.Language.dll):
         EnvDTE
@@ -42,15 +42,15 @@
       Exposed Dependencies (Microsoft.VisualStudio.CSharp.Services.Language.Interop.dll):
         (none)
       -->
-      <dependency id="VSSDK.DTE" version="[7.0.0,8.0.0)"/>
-      <dependency id="VSSDK.DTE.8" version="[8.0.0,9.0.0)"/>
-      <dependency id="VSSDK.OLE.Interop" version="[7.0.0,8.0.0)"/>
-      <dependency id="VSSDK.TextManager.Interop" version="[7.0.0,8.0.0)"/>
-      <dependency id="VSSDK.TextManager.Interop.8" version="[8.0.0,9.0.0)"/>
-      <dependency id="VSSDK.Shell.11" version="[11.0.0,12.0.0)"/>
-      <dependency id="VSSDK.Shell.Interop.11" version="[11.0.0,12.0.0)"/>
-      <dependency id="VSSDK.Text.11" version="[11.0.0,12.0.0)"/>
-      <dependency id="VSSDK.Language.CallHierarchy.11" version="[11.0.0,12.0.0)"/>
+      <dependency id="VSSDK.DTE" version="[7.0.2,8.0.0)"/>
+      <dependency id="VSSDK.DTE.8" version="[8.0.2,9.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.2,8.0.0)"/>
+      <dependency id="VSSDK.TextManager.Interop" version="[7.0.2,8.0.0)"/>
+      <dependency id="VSSDK.TextManager.Interop.8" version="[8.0.2,9.0.0)"/>
+      <dependency id="VSSDK.Shell.11" version="[11.0.2,12.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop.11" version="[11.0.2,12.0.0)"/>
+      <dependency id="VSSDK.Text.11" version="[11.0.2,12.0.0)"/>
+      <dependency id="VSSDK.Language.CallHierarchy.11" version="[11.0.2,12.0.0)"/>
     </dependencies>
   </metadata>
   <files>

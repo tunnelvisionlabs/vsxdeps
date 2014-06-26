@@ -14,7 +14,7 @@
     <tags>vssdk vs2012 vs2013</tags>
     <dependencies>
       <!-- Visual Studio 2012 -->
-      <dependency id="VSSDK.IDE.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.IDE.10" version="[10.0.2,11.0.0)"/>
       <!--
       Exposed Dependencies (VSLangProj110.dll):
         EnvDTE
@@ -23,12 +23,12 @@
         VSLangProj80
         VslangProj90
       -->
-      <dependency id="VSSDK.DTE" version="[7.0.0,8.0.0)"/>
-      <dependency id="VSSDK.VSLangProj" version="[7.0.0,8.0.0)"/>
-      <dependency id="VSSDK.VSLangProj.8" version="[8.0.0,9.0.0)"/>
-      <dependency id="VSSDK.VSLangProj.9" version="[9.0.0,10.0.0)"/>
+      <dependency id="VSSDK.DTE" version="[7.0.2,8.0.0)"/>
+      <dependency id="VSSDK.VSLangProj" version="[7.0.2,8.0.0)"/>
+      <dependency id="VSSDK.VSLangProj.8" version="[8.0.2,9.0.0)"/>
+      <dependency id="VSSDK.VSLangProj.9" version="[9.0.2,10.0.0)"/>
       <!-- Include references to earlier VSLangProj assemblies -->
-      <dependency id="VSSDK.VSLangProj.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.VSLangProj.10" version="[10.0.2,11.0.0)"/>
     </dependencies>
   </metadata>
   <files>

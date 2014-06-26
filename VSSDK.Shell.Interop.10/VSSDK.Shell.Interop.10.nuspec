@@ -14,17 +14,17 @@
     <tags>vssdk vs2010 vs2012 vs2013</tags>
     <dependencies>
       <!-- Visual Studio 2010 -->
-      <dependency id="VSSDK.IDE.10" version="[10.0.0,11.0.0)"/>
+      <dependency id="VSSDK.IDE.10" version="[10.0.2,11.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.Shell.Interop.10.0.dll):
         Microsoft.VisualStudio.OLE.Interop
         Microsoft.VisualStudio.Shell.Interop
         Microsoft.VisualStudio.Shell.Interop.8.0
       -->
-      <dependency id="VSSDK.OLE.Interop" version="[7.0.0,8.0.0)"/>
-      <dependency id="VSSDK.Shell.Interop.8" version="[8.0.0,9.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.2,8.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop.8" version="[8.0.2,9.0.0)"/>
       <!-- Also reference version from 2008 -->
-      <dependency id="VSSDK.Shell.Interop.9" version="[9.0.0,10.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop.9" version="[9.0.2,10.0.0)"/>
     </dependencies>
   </metadata>
   <files>

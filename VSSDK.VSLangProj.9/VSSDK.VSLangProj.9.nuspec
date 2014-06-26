@@ -14,14 +14,14 @@
     <tags>vssdk vs2008 vs2010 vs2012 vs2013</tags>
     <dependencies>
       <!-- Visual Studio 2008 -->
-      <dependency id="VSSDK.IDE.9" version="[9.0.0,10.0.0)"/>
+      <dependency id="VSSDK.IDE.9" version="[9.0.2,10.0.0)"/>
       <!--
       Exposed Dependencies (VSLangProj90.dll):
         (none)
       -->
       <!-- Include references to earlier VSLangProj assemblies -->
-      <dependency id="VSSDK.VSLangProj" version="[7.0.0,8.0.0)"/>
-      <dependency id="VSSDK.VSLangProj.8" version="[8.0.0,9.0.0)"/>
+      <dependency id="VSSDK.VSLangProj" version="[7.0.2,8.0.0)"/>
+      <dependency id="VSSDK.VSLangProj.8" version="[8.0.2,9.0.0)"/>
     </dependencies>
   </metadata>
   <files>
