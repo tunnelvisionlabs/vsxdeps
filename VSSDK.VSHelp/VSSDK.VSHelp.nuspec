@@ -29,6 +29,6 @@
     <!-- Reference assemblies -->
 
     <file src="$MSEnv$\PublicAssemblies\Microsoft.VisualStudio.VSHelp.dll" target="lib\net20"/>
-    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v2.0\Microsoft.VisualStudio.VSHelp.xml" target="lib\net20"/>
+    <file src="$MSEnv$\PublicAssemblies\en\Microsoft.VisualStudio.VSHelp.xml" target="lib\net20"/>
   </files>
 </package>

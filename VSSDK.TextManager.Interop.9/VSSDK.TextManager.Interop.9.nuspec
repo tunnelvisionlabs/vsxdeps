@@ -33,7 +33,7 @@
 
     <!-- Reference assemblies -->
 
-    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\Microsoft.VisualStudio.TextManager.Interop.9.0.dll" target="lib\net20"/>
-    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\Microsoft.VisualStudio.TextManager.Interop.9.0.xml" target="lib\net20"/>
+    <file src="$VSSDK10$\VisualStudioIntegration\Common\Assemblies\v2.0\Microsoft.VisualStudio.TextManager.Interop.9.0.dll" target="lib\net20"/>
+    <file src="$VSSDK10$\VisualStudioIntegration\Common\Assemblies\v2.0\Microsoft.VisualStudio.TextManager.Interop.9.0.xml" target="lib\net20"/>
   </files>
 </package>

@@ -30,6 +30,6 @@
     <!-- Reference assemblies -->
 
     <file src="$MSEnv$\PublicAssemblies\Microsoft.VisualStudio.VSHelp80.dll" target="lib\net20"/>
-    <file src="$VSSDK$\2007.02\VisualStudioIntegration\Common\Assemblies\Microsoft.VisualStudio.VSHelp80.xml" target="lib\net20"/>
+    <file src="$MSEnv$\PublicAssemblies\en\Microsoft.VisualStudio.VSHelp80.xml" target="lib\net20"/>
   </files>
 </package>

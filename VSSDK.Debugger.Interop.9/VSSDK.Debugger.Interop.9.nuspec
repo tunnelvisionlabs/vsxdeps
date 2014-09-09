@@ -30,6 +30,6 @@
     <!-- Reference assemblies -->
 
     <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\Microsoft.VisualStudio.Debugger.InteropA.dll" target="lib\net20"/>
-    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\Microsoft.VisualStudio.Debugger.InteropA.xml" target="lib\net20"/>
+    <file src="$VSSDK10$\VisualStudioIntegration\Common\Assemblies\v2.0\Microsoft.VisualStudio.Debugger.InteropA.xml" target="lib\net20"/>
   </files>
 </package>
