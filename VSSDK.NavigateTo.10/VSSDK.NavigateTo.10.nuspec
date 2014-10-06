@@ -14,9 +14,9 @@
     <tags>vssdk vs2010 vs2012 vs2013</tags>
     <dependencies>
       <!-- Visual Studio 2010 -->
-      <dependency id="VSSDK.IDE.10" version="[10.0.2,11.0.0)"/>
+      <dependency id="VSSDK.IDE.10" version="[10.0.3,11.0.0)"/>
       <!-- Wrapped dependency -->
-      <dependency id="VSSDK.NavigateTo" version="[10.0.2,11.0.0)"/>
+      <dependency id="VSSDK.NavigateTo" version="[10.0.3,11.0.0)"/>
       <!-- Depend on any wrappers for other wrapped dependencies -->
     </dependencies>
   </metadata>

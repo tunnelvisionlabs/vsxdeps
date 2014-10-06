@@ -17,13 +17,13 @@
     <tags>vssdk vs2005</tags>
     <dependencies>
       <!-- Visual Studio 2005 -->
-      <dependency id="VSSDK.IDE.8" version="[8.0.2,9.0.0)"/>
+      <dependency id="VSSDK.IDE.8" version="[8.0.3,9.0.0)"/>
       <!--
       Exposed Dependencies:
         Microsoft.VisualStudio.OLE.Interop
         stdole
       -->
-      <dependency id="VSSDK.OLE.Interop" version="[7.0.2,8.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.3,8.0.0)"/>
     </dependencies>
   </metadata>
   <files>

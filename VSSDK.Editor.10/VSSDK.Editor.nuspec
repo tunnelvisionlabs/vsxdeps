@@ -14,7 +14,7 @@
     <tags>vssdk vs2010 vs2012 vs2013</tags>
     <dependencies>
       <!-- Visual Studio 2010 -->
-      <dependency id="VSSDK.IDE.10" version="[10.0.2,11.0.0)"/>
+      <dependency id="VSSDK.IDE.10" version="[10.0.3,11.0.0)"/>
       <!--
       Exposed Dependencies:
         Microsoft.VisualStudio.CoreUtility
@@ -26,11 +26,11 @@
         Microsoft.VisualStudio.TextManager.Interop
         Microsoft.VisualStudio.TextManager.Interop.8.0
       -->
-      <dependency id="VSSDK.CoreUtility" version="[10.0.2,)"/>
-      <dependency id="VSSDK.OLE.Interop" version="[7.0.2,8.0.0)"/>
-      <dependency id="VSSDK.Text" version="[10.0.2,)"/>
-      <dependency id="VSSDK.TextManager.Interop" version="[7.0.2,8.0.0)"/>
-      <dependency id="VSSDK.TextManager.Interop.8" version="[8.0.2,9.0.0)"/>
+      <dependency id="VSSDK.CoreUtility" version="[10.0.3,)"/>
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.3,8.0.0)"/>
+      <dependency id="VSSDK.Text" version="[10.0.3,)"/>
+      <dependency id="VSSDK.TextManager.Interop" version="[7.0.3,8.0.0)"/>
+      <dependency id="VSSDK.TextManager.Interop.8" version="[8.0.3,9.0.0)"/>
     </dependencies>
   </metadata>
   <files>

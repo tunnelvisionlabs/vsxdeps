@@ -14,12 +14,12 @@
     <tags>vssdk vs2013</tags>
     <dependencies>
       <!-- Visual Studio 2013 -->
-      <dependency id="VSSDK.IDE.13" version="[12.0.2,13.0.0)"/>
+      <dependency id="VSSDK.IDE.13" version="[12.0.3,13.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.TemplateWizardInterface.dll):
         EnvDTE
       -->
-      <dependency id="VSSDK.DTE" version="[7.0.2,8.0.0)"/>
+      <dependency id="VSSDK.DTE" version="[7.0.3,8.0.0)"/>
     </dependencies>
   </metadata>
   <files>

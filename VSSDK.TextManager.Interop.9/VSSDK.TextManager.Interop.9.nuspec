@@ -14,16 +14,16 @@
     <tags>vssdk vs2008 vs2010 vs2012 vs2013</tags>
     <dependencies>
       <!-- Visual Studio 2008 -->
-      <dependency id="VSSDK.IDE.9" version="[9.0.2,10.0.0)"/>
+      <dependency id="VSSDK.IDE.9" version="[9.0.3,10.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.TextManager.Interop.9.0.dll):
         Microsoft.VisualStudio.OLE.Interop
         Microsoft.VisualStudio.TextManager.Interop
       -->
-      <dependency id="VSSDK.OLE.Interop" version="[7.0.2,8.0.0)"/>
-      <dependency id="VSSDK.TextManager.Interop" version="[7.0.2,8.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.3,8.0.0)"/>
+      <dependency id="VSSDK.TextManager.Interop" version="[7.0.3,8.0.0)"/>
       <!-- Include reference to previous versions -->
-      <dependency id="VSSDK.TextManager.Interop.8" version="[8.0.2,9.0.0)"/>
+      <dependency id="VSSDK.TextManager.Interop.8" version="[8.0.3,9.0.0)"/>
     </dependencies>
   </metadata>
   <files>

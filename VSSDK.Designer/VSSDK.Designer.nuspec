@@ -14,7 +14,7 @@
     <tags>vssdk vs2003 vs2005 vs2008 vs2010 vs2012 vs2013</tags>
     <dependencies>
       <!-- Visual Studio Base -->
-      <dependency id="VSSDK.IDE" version="[7.0.2,8.0.0)"/>
+      <dependency id="VSSDK.IDE" version="[7.0.3,8.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.Designer.Interfaces.dll):
         (none)

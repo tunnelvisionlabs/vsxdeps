@@ -15,14 +15,14 @@
     <tags>vssdk vs2005 vs2008 vs2010 vs2012 vs2013</tags>
     <dependencies>
       <!-- Visual Studio 2008 -->
-      <dependency id="VSSDK.IDE.9" version="[9.0.2,10.0.0)"/>
+      <dependency id="VSSDK.IDE.9" version="[9.0.3,10.0.0)"/>
       <!--
       Exposed Dependencies:
         EnvDTE
       -->
-      <dependency id="VSSDK.DTE" version="[7.0.2,8.0.0)"/>
+      <dependency id="VSSDK.DTE" version="[7.0.3,8.0.0)"/>
       <!-- Earlier EnvDTE packages transfer -->
-      <dependency id="VSSDK.DTE.8" version="[8.0.2,9.0.0)"/>
+      <dependency id="VSSDK.DTE.8" version="[8.0.3,9.0.0)"/>
     </dependencies>
   </metadata>
   <files>

@@ -14,9 +14,9 @@
     <tags>vssdk vs2013</tags>
     <dependencies>
       <!-- Visual Studio 2013 -->
-      <dependency id="VSSDK.IDE.12" version="[12.0.2,13.0.0)"/>
+      <dependency id="VSSDK.IDE.12" version="[12.0.3,13.0.0)"/>
       <!-- Wrapped dependency -->
-      <dependency id="VSSDK.NavigateTo" version="[12.0.2,13.0.0)"/>
+      <dependency id="VSSDK.NavigateTo" version="[12.0.3,13.0.0)"/>
       <!-- Depend on any wrappers for other wrapped dependencies -->
     </dependencies>
   </metadata>
