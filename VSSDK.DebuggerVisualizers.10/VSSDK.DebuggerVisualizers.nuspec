@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.DebuggerVisualizers</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Debugger Visualizers" reference assembly used by Visual Studio 2010 and newer.
+
+      Microsoft.VisualStudio.DebuggerVisualizers.dll
+    </description>
+    <summary>Visual Studio (Debugger Visualizers) for Visual Studio 2010+</summary>
+    <tags>vssdk vs2010 vs2012 vs2013</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework="net20"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2010 -->
+      <dependency id="VSSDK.IDE.10" version="[10.0.2,11.0.0)"/>
+      <!--
+      Exposed Dependencies:
+        System.Windows.Forms
+      -->
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSIDE$\ReferenceAssemblies\v2.0\Microsoft.VisualStudio.DebuggerVisualizers.dll" target="lib\net20"/>
+    <file src="$VSIDE$\ReferenceAssemblies\v2.0\Microsoft.VisualStudio.DebuggerVisualizers.xml" target="lib\net20"/>
+  </files>
+</package>

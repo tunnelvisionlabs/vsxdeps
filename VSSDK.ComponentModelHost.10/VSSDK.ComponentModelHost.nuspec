@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.ComponentModelHost</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "MEF Component Model Host" reference assembly used by Visual Studio 2010 and newer.
+
+      Microsoft.VisualStudio.ComponentModelHost.dll
+    </description>
+    <summary>Visual Studio (MEF Component Model Host) for Visual Studio 2010+</summary>
+    <tags>vssdk vs2010 vs2012 vs2013</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework="net40"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2010 -->
+      <dependency id="VSSDK.IDE.10" version="[10.0.2,11.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.ComponentModelHost.dll):
+        System.ComponentModel.Composition
+      -->
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSIDE$\PublicAssemblies\Microsoft.VisualStudio.ComponentModelHost.dll" target="lib\net40"/>
+  </files>
+</package>

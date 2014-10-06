@@ -12,35 +12,12 @@
     </description>
     <summary>Visual Studio (Graph Model) for Visual Studio 2013+</summary>
     <tags>vssdk vs2013</tags>
-    <frameworkAssemblies>
-      <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
-      <frameworkAssembly assemblyName="System" targetFramework="net40"/>
-      <frameworkAssembly assemblyName="System.Core" targetFramework="net40"/>
-      <frameworkAssembly assemblyName="System.Transactions" targetFramework="net40"/>
-      <frameworkAssembly assemblyName="System.Xml" targetFramework="net40"/>
-      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework="net40"/>
-    </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2013 -->
       <dependency id="VSSDK.IDE.12" version="[12.0.2,13.0.0)"/>
-      <!--
-      Exposed Dependencies (Microsoft.VisualStudio.GraphModel.dll):
-        PresentationCore
-        System
-        System.Core
-        System.Transactions
-        System.Xml
-        System.Xml.Linq
-      -->
+      <dependency id="VSSDK.GraphModel" version="[12.0.2,)"/>
     </dependencies>
   </metadata>
   <files>
-    <!-- Tools -->
-
-    <file src="install.ps1" target="tools"/>
-
-    <!-- Reference assemblies -->
-
-    <file src="$VSIDE$\PublicAssemblies\Microsoft.VisualStudio.GraphModel.dll" target="lib\net45"/>
   </files>
 </package>

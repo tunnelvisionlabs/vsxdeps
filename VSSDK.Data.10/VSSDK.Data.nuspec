@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.Data</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Data" reference assemblies used by Visual Studio 2010 and newer.
+
+      Microsoft.VisualStudio.Data.dll
+      Microsoft.VisualStudio.Data.Core.dll
+      Microsoft.VisualStudio.Data.Framework.dll
+      Microsoft.VisualStudio.Data.Services.dll
+    </description>
+    <summary>Visual Studio (Data) for Visual Studio 2010+</summary>
+    <tags>vssdk vs2010 vs2012 vs2013</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Data" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework="net40"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2010 -->
+      <dependency id="VSSDK.IDE.10" version="[10.0.2,11.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.Data.dll):
+        Microsoft.VisualStudio.Data
+        Microsoft.VisualStudio.OLE.Interop
+        Microsoft.VisualStudio.Shell.Interop
+        System
+        System.Data
+        System.Windows.Forms
+
+      Exposed Dependencies (Microsoft.VisualStudio.Data.Core.dll):
+        System
+
+      Exposed Dependencies (Microsoft.VisualStudio.Data.Framework.dll):
+        Microsoft.VisualStudio.Data.Core
+        Microsoft.VisualStudio.Data.Services
+        Microsoft.VisualStudio.OLE.Interop
+        Microsoft.VisualStudio.Shell.Interop
+        System
+        System.Data
+        System.Windows.Forms
+
+      Exposed Dependencies (Microsoft.VisualStudio.Data.Services.dll):
+        Microsoft.VisualStudio.OLE.Interop
+        Microsoft.VisualStudio.Shell.Interop
+        System
+        System.Drawing
+        System.Windows.Forms
+      -->
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.2,8.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop" version="[7.0.2,8.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Data.dll" target="lib\net40"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Data.xml" target="lib\net40"/>
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Data.Core.dll" target="lib\net40"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Data.Core.xml" target="lib\net40"/>
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Data.Framework.dll" target="lib\net40"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Data.Framework.xml" target="lib\net40"/>
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Data.Services.dll" target="lib\net40"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Data.Services.xml" target="lib\net40"/>
+  </files>
+</package>

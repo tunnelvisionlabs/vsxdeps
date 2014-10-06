@@ -27,6 +27,15 @@ $packages = @(
 	'VSSDK.TemplateWizardInterface.9'
 )
 
+$wrappedPackages = @{
+	# Managed packages with binding redirects in newer versions of Visual Studio
+	# Note: the commented lines are packages which use unique assembly names in addition to binding redirects, so
+	# wrapping is not necessary.
+	'VSSDK.DebuggerVisualizers.9' = 'VSSDK.DebuggerVisualizers'
+	#'VSSDK.Shell.9' = 'VSSDK.Shell'
+	'VSSDK.TemplateWizardInterface.9' = 'VSSDK.TemplateWizardInterface'
+}
+
 # Create the output folder if it doesn't exist
 if (!(Test-Path $OutDir))
 {
@@ -36,4 +45,9 @@ if (!(Test-Path $OutDir))
 foreach ($package in $packages)
 {
 	&$nuget pack "$package\$package.nuspec" -Version $Version -OutputDirectory $OutDir -Prop MSEnv=$MSEnv -Prop VSSDK=$VSSDK -Prop VSSDK10=$VSSDK10 -Prop VSIDE=$VSIDE
+}
+
+foreach ($package in $wrappedPackages.GetEnumerator())
+{
+	&$nuget pack "$($package.Key)\$($package.Value).nuspec" -Version $Version -OutputDirectory $OutDir -Prop MSEnv=$MSEnv -Prop VSSDK=$VSSDK -Prop VSSDK9=$VSSDK9 -Prop VSIDE=$VSIDE
 }

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.CoreUtility</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Core Utility" reference assembly used by Visual Studio 2013 and newer.
+
+      Microsoft.VisualStudio.CoreUtility.dll
+    </description>
+    <summary>Visual Studio (Core Utility) for Visual Studio 2013+</summary>
+    <tags>vssdk vs2013</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework="net40"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2013 -->
+      <dependency id="VSSDK.IDE.12" version="[12.0.2,13.0.0)"/>
+      <!--
+      Exposed Dependencies:
+        System.ComponentModel.Composition
+      -->
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.CoreUtility.dll" target="lib\net45"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.CoreUtility.xml" target="lib\net45"/>
+  </files>
+</package>

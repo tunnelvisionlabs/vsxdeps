@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.Language</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Language" reference assemblies used by Visual Studio 2013 and newer.
+
+      Microsoft.VisualStudio.Language.Intellisense.dll
+      Microsoft.VisualStudio.Language.StandardClassification.dll
+    </description>
+    <summary>Visual Studio (Language) for Visual Studio 2013+</summary>
+    <tags>vssdk vs2013</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2013 -->
+      <dependency id="VSSDK.IDE.12" version="[12.0.2,13.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.Language.Intellisense.dll):
+        Microsoft.VisualStudio.CoreUtility
+        Microsoft.VisualStudio.Text.Data
+        Microsoft.VisualStudio.Text.UI
+        PresentationCore
+        System
+
+      Exposed Dependencies (Microsoft.VisualStudio.Language.StandardClassification.dll):
+        Microsoft.VisualStudio.Text.Logic
+      -->
+      <dependency id="VSSDK.CoreUtility.12" version="[12.0.2,13.0.0)"/>
+      <dependency id="VSSDK.Text.12" version="[12.0.2,13.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Language.Intellisense.dll" target="lib\net45"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Language.Intellisense.xml" target="lib\net45"/>
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Language.StandardClassification.dll" target="lib\net45"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Language.StandardClassification.xml" target="lib\net45"/>
+  </files>
+</package>

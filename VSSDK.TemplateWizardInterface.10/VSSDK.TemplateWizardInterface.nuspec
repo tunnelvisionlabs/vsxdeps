@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.TemplateWizardInterface</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Template Wizard Interface" reference assembly used by Visual Studio 2010 and newer.
+
+      Microsoft.VisualStudio.TemplateWizardInterface.dll
+    </description>
+    <summary>Visual Studio (Template Wizard Interface) for Visual Studio 2010+</summary>
+    <tags>vssdk vs2010 vs2012 vs2013</tags>
+    <dependencies>
+      <!-- Visual Studio 2010 -->
+      <dependency id="VSSDK.IDE.10" version="[10.0.2,11.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.TemplateWizardInterface.dll):
+        EnvDTE
+      -->
+      <dependency id="VSSDK.DTE" version="[7.0.2,8.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSIDE$\PublicAssemblies\Microsoft.VisualStudio.TemplateWizardInterface.dll" target="lib\net20"/>
+    <file src="$VSIDE$\PublicAssemblies\Microsoft.VisualStudio.TemplateWizardInterface.xml" target="lib\net20"/>
+  </files>
+</package>

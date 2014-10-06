@@ -12,25 +12,12 @@
     </description>
     <summary>Visual Studio (MEF Component Model Host) for Visual Studio 2013+</summary>
     <tags>vssdk vs2013</tags>
-    <frameworkAssemblies>
-      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework="net40"/>
-    </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2013 -->
       <dependency id="VSSDK.IDE.12" version="[12.0.2,13.0.0)"/>
-      <!--
-      Exposed Dependencies (Microsoft.VisualStudio.ComponentModelHost.dll):
-        System.ComponentModel.Composition
-      -->
+      <dependency id="VSSDK.ComponentModelHost" version="[12.0.2,)"/>
     </dependencies>
   </metadata>
   <files>
-    <!-- Tools -->
-
-    <file src="install.ps1" target="tools"/>
-
-    <!-- Reference assemblies -->
-
-    <file src="$VSIDE$\PublicAssemblies\Microsoft.VisualStudio.ComponentModelHost.dll" target="lib\net45"/>
   </files>
 </package>

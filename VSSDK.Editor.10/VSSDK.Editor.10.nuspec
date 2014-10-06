@@ -15,32 +15,9 @@
     <dependencies>
       <!-- Visual Studio 2010 -->
       <dependency id="VSSDK.IDE.10" version="[10.0.2,11.0.0)"/>
-      <!--
-      Exposed Dependencies:
-        Microsoft.VisualStudio.CoreUtility
-        Microsoft.VisualStudio.OLE.Interop
-        Microsoft.VisualStudio.Text.Data
-        Microsoft.VisualStudio.Text.Logic
-        Microsoft.VisualStudio.Text.UI
-        Microsoft.VisualStudio.Text.UI.Wpf
-        Microsoft.VisualStudio.TextManager.Interop
-        Microsoft.VisualStudio.TextManager.Interop.8.0
-      -->
-      <dependency id="VSSDK.CoreUtility.10" version="[10.0.2,11.0.0)"/>
-      <dependency id="VSSDK.OLE.Interop" version="[7.0.2,8.0.0)"/>
-      <dependency id="VSSDK.Text.10" version="[10.0.2,11.0.0)"/>
-      <dependency id="VSSDK.TextManager.Interop" version="[7.0.2,8.0.0)"/>
-      <dependency id="VSSDK.TextManager.Interop.8" version="[8.0.2,9.0.0)"/>
+      <dependency id="VSSDK.Editor" version="[10.0.2,)"/>
     </dependencies>
   </metadata>
   <files>
-    <!-- Tools -->
-
-    <file src="install.ps1" target="tools"/>
-
-    <!-- Reference assemblies -->
-
-    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Editor.dll" target="lib\net40"/>
-    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Editor.xml" target="lib\net40"/>
   </files>
 </package>

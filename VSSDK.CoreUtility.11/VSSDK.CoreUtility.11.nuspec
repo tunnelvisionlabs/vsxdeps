@@ -12,26 +12,12 @@
     </description>
     <summary>Visual Studio (Core Utility) for Visual Studio 2012+</summary>
     <tags>vssdk vs2012 vs2013</tags>
-    <frameworkAssemblies>
-      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework="net45"/>
-    </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2012 -->
       <dependency id="VSSDK.IDE.11" version="[11.0.2,12.0.0)"/>
-      <!--
-      Exposed Dependencies:
-        System.ComponentModel.Composition
-      -->
+      <dependency id="VSSDK.CoreUtility" version="[11.0.2,)"/>
     </dependencies>
   </metadata>
   <files>
-    <!-- Tools -->
-
-    <file src="install.ps1" target="tools"/>
-
-    <!-- Reference assemblies -->
-
-    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.CoreUtility.dll" target="lib\net45"/>
-    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.CoreUtility.xml" target="lib\net45"/>
   </files>
 </package>

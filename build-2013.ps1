@@ -13,7 +13,7 @@ $packages = @(
 	'VSSDK.IDE.12'
 	'VSSDK.IDE.12Only'
 
-	# Immuatble COM-interop packages
+	# Immutable COM-interop packages
 	'VSSDK.Debugger.Interop.12'
 	'VSSDK.Shell.Interop.12'
 
@@ -41,6 +41,25 @@ $packages = @(
 	'VSSDK.ServerExplorer.12'
 )
 
+$wrappedPackages = @{
+	# Managed packages with binding redirects in newer versions of Visual Studio
+	# Note: the commented lines are packages which use unique assembly names in addition to binding redirects, so
+	# wrapping is not necessary.
+	'VSSDK.ComponentModelHost.12' = 'VSSDK.ComponentModelHost'
+	'VSSDK.CoreUtility.12' = 'VSSDK.CoreUtility'
+	'VSSDK.Data.12' = 'VSSDK.Data'
+	'VSSDK.DebuggerVisualizers.12' = 'VSSDK.DebuggerVisualizers'
+	'VSSDK.Editor.12' = 'VSSDK.Editor'
+	'VSSDK.GraphModel.12' = 'VSSDK.GraphModel'
+	'VSSDK.Language.12' = 'VSSDK.Language'
+	#'VSSDK.LanguageService.12' = 'VSSDK.LanguageService'
+	'VSSDK.NavigateTo.12' = 'VSSDK.NavigateTo'
+	#'VSSDK.Shell.12' = 'VSSDK.Shell'
+	'VSSDK.Text.12' = 'VSSDK.Text'
+	'VSSDK.Threading.12' = 'VSSDK.Threading'
+	'VSSDK.TemplateWizardInterface.12' = 'VSSDK.TemplateWizardInterface'
+}
+
 # Create the output folder if it doesn't exist
 if (!(Test-Path $OutDir))
 {
@@ -50,4 +69,9 @@ if (!(Test-Path $OutDir))
 foreach ($package in $packages)
 {
 	&$nuget pack "$package\$package.nuspec" -Version $Version -OutputDirectory $OutDir -Prop MSEnv=$MSEnv -Prop VSSDK=$VSSDK -Prop VSIDE=$VSIDE
+}
+
+foreach ($package in $wrappedPackages.GetEnumerator())
+{
+	&$nuget pack "$($package.Key)\$($package.Value).nuspec" -Version $Version -OutputDirectory $OutDir -Prop MSEnv=$MSEnv -Prop VSSDK=$VSSDK -Prop VSSDK9=$VSSDK9 -Prop VSIDE=$VSIDE
 }
