@@ -31,8 +31,8 @@
       Exposed Dependencies (Microsoft.VisualStudio.Language.StandardClassification.dll):
         Microsoft.VisualStudio.Text.Logic
       -->
-      <dependency id="VSSDK.CoreUtility.10" version="[10.0.2,11.0.0)"/>
-      <dependency id="VSSDK.Text.10" version="[10.0.2,11.0.0)"/>
+      <dependency id="VSSDK.CoreUtility" version="[10.0.2,)"/>
+      <dependency id="VSSDK.Text" version="[10.0.2,)"/>
     </dependencies>
   </metadata>
   <files>

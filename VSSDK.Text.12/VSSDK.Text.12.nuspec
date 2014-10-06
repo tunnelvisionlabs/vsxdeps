@@ -18,7 +18,10 @@
     <dependencies>
       <!-- Visual Studio 2013 -->
       <dependency id="VSSDK.IDE.12" version="[12.0.2,13.0.0)"/>
-      <dependency id="VSSDK.Text" version="[12.0.2,)"/>
+      <!-- Wrapped dependency -->
+      <dependency id="VSSDK.Text" version="[12.0.2,13.0.0)"/>
+      <!-- Depend on any wrappers for other wrapped dependencies -->
+      <dependency id="VSSDK.CoreUtility.12" version="[12.0.2,13.0.0)"/>
     </dependencies>
   </metadata>
   <files>

@@ -15,7 +15,9 @@
     <dependencies>
       <!-- Visual Studio 2005 -->
       <dependency id="VSSDK.IDE.8" version="[8.0.2,9.0.0)"/>
-      <dependency id="VSSDK.DebuggerVisualizers" version="[8.0.2,)"/>
+      <!-- Wrapped dependency -->
+      <dependency id="VSSDK.DebuggerVisualizers" version="[8.0.2,9.0.0)"/>
+      <!-- Depend on any wrappers for other wrapped dependencies -->
     </dependencies>
   </metadata>
   <files>

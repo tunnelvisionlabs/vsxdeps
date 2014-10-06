@@ -42,3 +42,15 @@ The packages above are described in terms of *restrictions*. For example, if you
 ## Supporting Additional Packages
 
 The current packages only provide a subset of the available assemblies used by Visual Studio extensions. If your extension requires references to Visual Studio assemblies which are not currently provided through NuGet, please [create a new issue](https://github.com/tunnelvisionlabs/vsxdeps/issues) requesting a package be created for the new assembly. Make sure to include the complete name of every assembly file which should be included in the package.
+
+## Managed Packages with Binding Redirects
+
+Certain Visual Studio assemblies use the same assembly name, but update the assembly version with each supported release of Visual Studio. These dependencies are distributed using a two-part strategy to meet the needs of different extension development and distribution strategies.
+
+The managed assemblies themselves are packaged in a *version independent* NuGet package, where the name of the NuGet package does not include the version number, but the major version of the package corresponds to the targeted release of Visual Studio. In addition to the package containing the assemblies, a metadata-only *version dependent* NuGet package is created for each supported version of Visual Studio.
+
+### Extension development
+
+During extension and/or library development, projects should declare dependencies on the *version dependent* NuGet packages for the managed packages they use. This strategy ensures that NuGet will use the dependencies corresponding to the intended target version of Visual Studio, and will not be able to upgrade the dependency to a version incompatible with the requirements of the project. For example, a project which adds the **VSSDK.Text.10** NuGet package to support Visual Studio 2010+ will not be allowed to update the underlying version independent **VSSDK.Text** dependency to version 11.x, which requires Visual Studio 2012.
+
+Reusable extensions, such as those in the VSBase project, should use a NuGet package specification which only references *version independent* packages. This strategy ensures that the distributed package will not prevent extension developers from creating Visual Studio extensions that only support a subset of the versions of Visual Studio supported by the reusable extension. For example, a NuGet package which includes a dependency on **VSSDK.Text** version `[11,)` is compatible with projects using either the **VSSDK.Text.11** or **VSSDK.Text.12** packages, but cannot be used in a project which uses **VSSDK.Text.10**.

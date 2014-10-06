@@ -15,7 +15,9 @@
     <dependencies>
       <!-- Visual Studio 2012 -->
       <dependency id="VSSDK.IDE.11" version="[11.0.2,12.0.0)"/>
-      <dependency id="VSSDK.TemplateWizardInterface" version="[11.0.2,)"/>
+      <!-- Wrapped dependency -->
+      <dependency id="VSSDK.TemplateWizardInterface" version="[11.0.2,12.0.0)"/>
+      <!-- Depend on any wrappers for other wrapped dependencies -->
     </dependencies>
   </metadata>
   <files>
