@@ -11,7 +11,7 @@
       Microsoft.VisualStudio.Shell.Interop.12.0.dll
     </description>
     <summary>Visual Studio (Shell Interop) for Visual Studio 2013+</summary>
-    <tags>vssdk vs2013</tags>
+    <tags>vssdk vs2013 vs2015</tags>
     <dependencies>
       <!-- Visual Studio 2013 -->
       <dependency id="VSSDK.IDE.12" version="[12.0.3,13.0.0)"/>

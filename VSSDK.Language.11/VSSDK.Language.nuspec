@@ -12,7 +12,7 @@
       Microsoft.VisualStudio.Language.StandardClassification.dll
     </description>
     <summary>Visual Studio (Language) for Visual Studio 2012+</summary>
-    <tags>vssdk vs2012 vs2013</tags>
+    <tags>vssdk vs2012 vs2013 vs2015</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net40"/>
       <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>

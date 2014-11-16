@@ -14,7 +14,7 @@
       Microsoft.VisualStudio.Text.UI.Wpf.dll
     </description>
     <summary>Visual Studio (Text Editor) for Visual Studio 2012+</summary>
-    <tags>vssdk vs2012 vs2013</tags>
+    <tags>vssdk vs2012 vs2013 vs2015</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net40"/>
       <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>

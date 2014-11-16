@@ -13,7 +13,7 @@
       VSLangProj80.dll
     </description>
     <summary>Automation and Extensibility (VSLangProj) for Visual Studio 2005+</summary>
-    <tags>vssdk vs2005 vs2008 vs2010 vs2012 vs2013</tags>
+    <tags>vssdk vs2005 vs2008 vs2010 vs2012 vs2013 vs2015</tags>
     <dependencies>
       <!-- Visual Studio 2005 -->
       <dependency id="VSSDK.IDE.8" version="[8.0.3,9.0.0)"/>

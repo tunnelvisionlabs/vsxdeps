@@ -9,7 +9,7 @@
       This is a metadata-only package used as a dependency for reference packages and extensions that target Visual Studio .NET 2003 and newer.
     </description>
     <summary>Visual Studio 2003+</summary>
-    <tags>vssdk vs2003 vs2005 vs2008 vs2010 vs2012 vs2013</tags>
+    <tags>vssdk vs2003 vs2005 vs2008 vs2010 vs2012 vs2013 vs2015</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net20"/>
     </frameworkAssemblies>

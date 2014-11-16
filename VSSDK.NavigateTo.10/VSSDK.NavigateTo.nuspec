@@ -11,7 +11,7 @@
       Microsoft.VisualStudio.Language.NavigateTo.Interfaces.dll
     </description>
     <summary>Visual Studio (Navigate To) for Visual Studio 2010+</summary>
-    <tags>vssdk vs2010 vs2012 vs2013</tags>
+    <tags>vssdk vs2010 vs2012 vs2013 vs2015</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework="net40"/>
       <frameworkAssembly assemblyName="System.Drawing" targetFramework="net40"/>
