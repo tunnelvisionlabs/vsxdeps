@@ -33,6 +33,6 @@
 
     <!-- Reference assemblies -->
 
-    <file src="$VSIDE$\Remote Debugger\x86\Microsoft.VisualStudio.Debugger.Interop.12.0.dll" target="lib\net40"/>
+    <file src="$VSIDE$\Remote Debugger\x86\Microsoft.VisualStudio.Debugger.Interop.12.0.dll" target="lib\net20"/>
   </files>
 </package>
