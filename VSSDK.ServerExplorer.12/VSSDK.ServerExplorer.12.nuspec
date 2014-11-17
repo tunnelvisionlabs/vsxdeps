@@ -11,7 +11,7 @@
       Microsoft.VisualStudio.ServerExplorer.dll
     </description>
     <summary>Visual Studio (Server Explorer) for Visual Studio 2013</summary>
-    <tags>vs2013</tags>
+    <tags>vssdk vs2013</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net40"/>
       <frameworkAssembly assemblyName="System.Drawing" targetFramework="net40"/>
@@ -28,6 +28,8 @@
         System.Drawing
         System.Windows.Forms
       -->
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.3,8.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop" version="[7.0.3,8.0.0)"/>
     </dependencies>
   </metadata>
   <files>

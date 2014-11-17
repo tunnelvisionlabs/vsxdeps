@@ -13,7 +13,7 @@
     <summary>Visual Studio (Editor) for Visual Studio 2013+</summary>
     <tags>vssdk vs2013</tags>
     <dependencies>
-      <!-- Visual Studio 2010 -->
+      <!-- Visual Studio 2013 -->
       <dependency id="VSSDK.IDE.12" version="[12.0.3,13.0.0)"/>
       <!-- Wrapped dependency -->
       <dependency id="VSSDK.Editor" version="[12.0.3,13.0.0)"/>
