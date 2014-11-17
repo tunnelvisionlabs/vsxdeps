@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.ComponentModelHost</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "MEF Component Model Host" reference assembly used by Visual Studio 2015 and newer.
+
+      Microsoft.VisualStudio.ComponentModelHost.dll
+    </description>
+    <summary>Visual Studio (MEF Component Model Host) for Visual Studio 2015+</summary>
+    <tags>vssdk vs2015</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework="net40"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2015 -->
+      <dependency id="VSSDK.IDE.14" version="[14.0.3,15.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.ComponentModelHost.dll):
+        System.ComponentModel.Composition
+      -->
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSIDE$\PublicAssemblies\Microsoft.VisualStudio.ComponentModelHost.dll" target="lib\net45"/>
+  </files>
+</package>

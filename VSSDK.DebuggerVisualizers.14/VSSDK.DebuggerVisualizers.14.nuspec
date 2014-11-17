@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.DebuggerVisualizers.14</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Debugger Visualizers" reference assembly used by Visual Studio 2015 and newer.
+
+      Microsoft.VisualStudio.DebuggerVisualizers.dll
+    </description>
+    <summary>Visual Studio (Debugger Visualizers) for Visual Studio 2015+</summary>
+    <tags>vssdk vs2013 vs2015</tags>
+    <dependencies>
+      <!-- Visual Studio 2015 -->
+      <dependency id="VSSDK.IDE.14" version="[14.0.3,15.0.0)"/>
+      <!-- Wrapped dependency -->
+      <dependency id="VSSDK.DebuggerVisualizers" version="[14.0.3,15.0.0)"/>
+      <!-- Depend on any wrappers for other wrapped dependencies -->
+    </dependencies>
+  </metadata>
+  <files>
+  </files>
+</package>

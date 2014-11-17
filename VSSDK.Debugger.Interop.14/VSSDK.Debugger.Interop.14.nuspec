@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.Debugger.Interop.12</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Debugger" COM-interop reference assemblies used by Visual Studio 2015 and newer.
+
+      Microsoft.VisualStudio.Debugger.Interop.14.0.dll
+    </description>
+    <summary>Visual Studio (Debugger Interop) for Visual Studio 2015+</summary>
+    <tags>vssdk vs2015</tags>
+    <dependencies>
+      <!-- Visual Studio 2015 -->
+      <dependency id="VSSDK.IDE.14" version="[14.0.3,15.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.Debugger.Interop.14.0.dll):
+        Microsoft.VisualStudio.Debugger.InteropA
+        Microsoft.VisualStudio.OLE.Interop
+      -->
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.3,8.0.0)"/>
+      <dependency id="VSSDK.Debugger.Interop.9" version="[9.0.3,10.0.0)"/>
+
+      <!-- Reference previous versions of the Debugger Interop assemblies -->
+      <dependency id="VSSDK.Debugger.Interop.10" version="[10.0.3,11.0.0)"/>
+      <dependency id="VSSDK.Debugger.Interop.11" version="[11.0.3,12.0.0)"/>
+      <dependency id="VSSDK.Debugger.Interop.12" version="[12.0.3,13.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSIDE$\Remote Debugger\x86\Microsoft.VisualStudio.Debugger.Interop.14.0.dll" target="lib\net20"/>
+  </files>
+</package>
