@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.NavigateTo</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Navigate To" reference assembly used by Visual Studio 2015 and newer.
+
+      Microsoft.VisualStudio.Language.NavigateTo.Interfaces.dll
+    </description>
+    <summary>Visual Studio (Navigate To) for Visual Studio 2015+</summary>
+    <tags>vssdk vs2015</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="net40"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2015 -->
+      <dependency id="VSSDK.IDE.14" version="[14.0.3,15.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.Language.NavigateTo.Interfaces.dll):
+        System.Drawing
+      -->
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSIDE$\PublicAssemblies\Microsoft.VisualStudio.Language.NavigateTo.Interfaces.dll" target="lib\net45"/>
+  </files>
+</package>

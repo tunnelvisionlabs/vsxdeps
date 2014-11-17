@@ -11,7 +11,7 @@
       If you find this package installed in an extension that is supposed to target Visual Studio 2010 or 2012, use NuGet to uninstall the package and it will report the specific dependencies that are causing the incompatibility.
     </description>
     <summary>Visual Studio 2013+</summary>
-    <tags>vssdk vs2013</tags>
+    <tags>vssdk vs2013 vs2015</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net40"/>
     </frameworkAssemblies>

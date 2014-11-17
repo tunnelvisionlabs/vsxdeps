@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.GraphModel</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Graph Model" reference assembly used by Visual Studio 2015 and newer.
+
+      Microsoft.VisualStudio.GraphModel.dll
+    </description>
+    <summary>Visual Studio (Graph Model) for Visual Studio 2015+</summary>
+    <tags>vssdk vs2015</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Core" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Transactions" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework="net40"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2015 -->
+      <dependency id="VSSDK.IDE.14" version="[14.0.3,15.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.GraphModel.dll):
+        Microsoft.VisualStudio.OLE.Interop
+        PresentationCore
+        System
+        System.ComponentModel.Composition
+        System.Core
+        System.Transactions
+        System.Xml
+        System.Xml.Linq
+      -->
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.3,8.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSIDE$\PublicAssemblies\Microsoft.VisualStudio.GraphModel.dll" target="lib\net45"/>
+  </files>
+</package>

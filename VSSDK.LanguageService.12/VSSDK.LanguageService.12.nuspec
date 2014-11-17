@@ -11,7 +11,7 @@
       Microsoft.VisualStudio.Package.LanguageService.12.0.dll
     </description>
     <summary>Visual Studio (MPF Language Service) for Visual Studio 2013+</summary>
-    <tags>vssdk vs2013</tags>
+    <tags>vssdk vs2013 vs2015</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="Microsoft.MSXML" targetFramework="net40"/>
       <frameworkAssembly assemblyName="System" targetFramework="net40"/>

@@ -11,7 +11,7 @@
       Microsoft.VisualStudio.Threading.dll
     </description>
     <summary>Visual Studio (Threading) for Visual Studio 2013+</summary>
-    <tags>vssdk vs2013</tags>
+    <tags>vssdk vs2013 vs2015</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System.Core" targetFramework="net40"/>
     </frameworkAssemblies>

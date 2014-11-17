@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.Shell.14</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Shell" reference assembly used by Visual Studio 2015 and newer.
+
+      Microsoft.VisualStudio.Shell.14.0.dll
+    </description>
+    <summary>Visual Studio (Shell) for Visual Studio 2015+</summary>
+    <tags>vssdk vs2015</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Design" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="UIAutomationProvider" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="UIAutomationTypes" targetFramework="net40"/>
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework="net40"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <!-- Visual Studio 2015 -->
+      <dependency id="VSSDK.IDE.14" version="[14.0.3,15.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.Shell.14.0.dll):
+        EnvDTE
+        *Microsoft.VisualStudio.Imaging
+        Microsoft.VisualStudio.OLE.Interop
+        *Microsoft.VisualStudio.ProjectAggregator
+        Microsoft.VisualStudio.Shell.Immutable.10.0
+        Microsoft.VisualStudio.Shell.Immutable.11.0
+        Microsoft.VisualStudio.Shell.Immutable.12.0
+        Microsoft.VisualStudio.Shell.Immutable.14.0
+        Microsoft.VisualStudio.Shell.Interop
+        Microsoft.VisualStudio.Shell.Interop.8.0
+        Microsoft.VisualStudio.Shell.Interop.9.0
+        Microsoft.VisualStudio.TextManager.Interop
+        Microsoft.VisualStudio.Threading
+        *Microsoft.VisualStudio.Utilities
+        PresentationCore
+        PresentationFramework
+        System
+        System.Design
+        System.Drawing
+        System.Windows.Forms
+        System.Xaml
+        UIAutomationProvider
+        UIAutomationTypes
+        WindowsBase
+      -->
+      <dependency id="VSSDK.DTE" version="[7.0.3,8.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.3,8.0.0)"/>
+      <dependency id="VSSDK.Shell.Immutable.10" version="[10.0.3,11.0.0)"/>
+      <dependency id="VSSDK.Shell.Immutable.11" version="[11.0.3,12.0.0)"/>
+      <dependency id="VSSDK.Shell.Immutable.12" version="[12.0.3,13.0.0)"/>
+      <dependency id="VSSDK.Shell.Immutable.14" version="[14.0.3,15.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop" version="[7.0.3,8.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop.8" version="[8.0.3,9.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop.9" version="[9.0.3,10.0.0)"/>
+      <dependency id="VSSDK.TextManager.Interop" version="[7.0.3,8.0.0)"/>
+      <dependency id="VSSDK.Threading.14" version="[14.0.3,15.0.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Shell.14.0.dll" target="lib\net45"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Shell.14.0.xml" target="lib\net45"/>
+  </files>
+</package>

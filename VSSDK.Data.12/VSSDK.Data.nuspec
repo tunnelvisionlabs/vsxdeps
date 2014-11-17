@@ -14,7 +14,7 @@
       Microsoft.VisualStudio.Data.Services.dll
     </description>
     <summary>Visual Studio (Data) for Visual Studio 2013+</summary>
-    <tags>vssdk vs2013</tags>
+    <tags>vssdk vs2013 vs2015</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net40"/>
       <frameworkAssembly assemblyName="System.Data" targetFramework="net40"/>

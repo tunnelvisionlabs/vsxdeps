@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.IDE.14</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This is a metadata-only package used as a dependency for reference packages and extensions that target Visual Studio 2015 and newer.
+
+      If you find this package installed in an extension that is supposed to target Visual Studio 2013 or older, use NuGet to uninstall the package and it will report the specific dependencies that are causing the incompatibility.
+    </description>
+    <summary>Visual Studio 2015+</summary>
+    <tags>vssdk vs2015</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net40"/>
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+  </files>
+</package>
