@@ -28,6 +28,8 @@
         System.Drawing
         System.Windows.Forms
       -->
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.3,8.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop" version="[7.0.3,8.0.0)"/>
     </dependencies>
   </metadata>
   <files>
