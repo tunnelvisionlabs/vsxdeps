@@ -17,11 +17,11 @@
     <tags>vssdk vs2015</tags>
     <dependencies>
       <!-- Visual Studio 2015 -->
-      <dependency id="VSSDK.IDE.14" version="[14.0.3,15.0.0)"/>
+      <dependency id="VSSDK.IDE.14" version="[14.0.3-preview,15.0.0)"/>
       <!-- Wrapped dependency -->
-      <dependency id="VSSDK.Text" version="[14.0.3,15.0.0)"/>
+      <dependency id="VSSDK.Text" version="[14.0.3-preview,15.0.0)"/>
       <!-- Depend on any wrappers for other wrapped dependencies -->
-      <dependency id="VSSDK.CoreUtility.14" version="[14.0.3,15.0.0)"/>
+      <dependency id="VSSDK.CoreUtility.14" version="[14.0.3-preview,15.0.0)"/>
     </dependencies>
   </metadata>
   <files>

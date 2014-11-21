@@ -18,7 +18,7 @@
     </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2015 -->
-      <dependency id="VSSDK.IDE.14" version="[14.0.3,15.0.0)"/>
+      <dependency id="VSSDK.IDE.14" version="[14.0.3-preview,15.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.Editor.dll):
         Microsoft.VisualStudio.CoreUtility
@@ -32,9 +32,9 @@
         PresentationFramework
         WindowsBase
       -->
-      <dependency id="VSSDK.CoreUtility" version="[14.0.3,)"/>
+      <dependency id="VSSDK.CoreUtility" version="[14.0.3-preview,)"/>
       <dependency id="VSSDK.OLE.Interop" version="[7.0.3,8.0.0)"/>
-      <dependency id="VSSDK.Text" version="[14.0.3,)"/>
+      <dependency id="VSSDK.Text" version="[14.0.3-preview,)"/>
       <dependency id="VSSDK.TextManager.Interop" version="[7.0.3,8.0.0)"/>
       <dependency id="VSSDK.TextManager.Interop.8" version="[8.0.3,9.0.0)"/>
     </dependencies>
