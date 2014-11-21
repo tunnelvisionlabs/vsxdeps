@@ -19,7 +19,7 @@
     </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2015 -->
-      <dependency id="VSSDK.IDE.14" version="[14.0.3-preview,15.0.0)"/>
+      <dependency id="VSSDK.IDE.14" version="[14.0.4-preview,15.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.Language.Intellisense.dll):
         Microsoft.VisualStudio.CoreUtility
@@ -32,8 +32,8 @@
       Exposed Dependencies (Microsoft.VisualStudio.Language.StandardClassification.dll):
         Microsoft.VisualStudio.Text.Logic
       -->
-      <dependency id="VSSDK.CoreUtility" version="[14.0.3-preview,)"/>
-      <dependency id="VSSDK.Text" version="[14.0.3-preview,)"/>
+      <dependency id="VSSDK.CoreUtility" version="[14.0.4-preview,)"/>
+      <dependency id="VSSDK.Text" version="[14.0.4-preview,)"/>
     </dependencies>
   </metadata>
   <files>

@@ -19,7 +19,7 @@
     </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2015 Only -->
-      <dependency id="VSSDK.IDE.14Only" version="[14.0.3-preview,15.0.0)"/>
+      <dependency id="VSSDK.IDE.14Only" version="[14.0.4-preview,15.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.ServerExplorer.dll):
         Microsoft.VisualStudio.OLE.Interop
@@ -29,9 +29,9 @@
         System.Drawing
         System.Windows.Forms
       -->
-      <dependency id="VSSDK.OLE.Interop" version="[7.0.3,8.0.0)"/>
-      <dependency id="VSSDK.Shell.Interop" version="[7.0.3,8.0.0)"/>
-      <dependency id="VSSDK.Shell.14" version="[14.0.3-preview,15.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.4,8.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop" version="[7.0.4,8.0.0)"/>
+      <dependency id="VSSDK.Shell.14" version="[14.0.4-preview,15.0.0)"/>
     </dependencies>
   </metadata>
   <files>

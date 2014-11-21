@@ -14,19 +14,19 @@
     <tags>vssdk vs2015</tags>
     <dependencies>
       <!-- Visual Studio 2015 -->
-      <dependency id="VSSDK.IDE.14" version="[14.0.3-preview,15.0.0)"/>
+      <dependency id="VSSDK.IDE.14" version="[14.0.4-preview,15.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.Debugger.Interop.14.0.dll):
         Microsoft.VisualStudio.Debugger.InteropA
         Microsoft.VisualStudio.OLE.Interop
       -->
-      <dependency id="VSSDK.OLE.Interop" version="[7.0.3,8.0.0)"/>
-      <dependency id="VSSDK.Debugger.Interop.9" version="[9.0.3,10.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.4,8.0.0)"/>
+      <dependency id="VSSDK.Debugger.Interop.9" version="[9.0.4,10.0.0)"/>
 
       <!-- Reference previous versions of the Debugger Interop assemblies -->
-      <dependency id="VSSDK.Debugger.Interop.10" version="[10.0.3,11.0.0)"/>
-      <dependency id="VSSDK.Debugger.Interop.11" version="[11.0.3,12.0.0)"/>
-      <dependency id="VSSDK.Debugger.Interop.12" version="[12.0.3,13.0.0)"/>
+      <dependency id="VSSDK.Debugger.Interop.10" version="[10.0.4,11.0.0)"/>
+      <dependency id="VSSDK.Debugger.Interop.11" version="[11.0.4,12.0.0)"/>
+      <dependency id="VSSDK.Debugger.Interop.12" version="[12.0.4,13.0.0)"/>
     </dependencies>
   </metadata>
   <files>

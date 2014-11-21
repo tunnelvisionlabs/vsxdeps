@@ -6,7 +6,7 @@ param(
 )
 
 $nuget = '.\.nuget\NuGet.exe'
-$Version = '9.0.3'
+$Version = '9.0.4'
 $OutDir = 'packages-2008'
 
 $packages = @(

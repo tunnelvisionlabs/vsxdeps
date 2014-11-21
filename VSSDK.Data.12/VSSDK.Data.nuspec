@@ -23,7 +23,7 @@
     </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2013 -->
-      <dependency id="VSSDK.IDE.12" version="[12.0.3,13.0.0)"/>
+      <dependency id="VSSDK.IDE.12" version="[12.0.4,13.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.Data.dll):
         Microsoft.VisualStudio.Data
@@ -52,8 +52,8 @@
         System.Drawing
         System.Windows.Forms
       -->
-      <dependency id="VSSDK.OLE.Interop" version="[7.0.3,8.0.0)"/>
-      <dependency id="VSSDK.Shell.Interop" version="[7.0.3,8.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.4,8.0.0)"/>
+      <dependency id="VSSDK.Shell.Interop" version="[7.0.4,8.0.0)"/>
     </dependencies>
   </metadata>
   <files>

@@ -23,7 +23,7 @@
     </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2015 -->
-      <dependency id="VSSDK.IDE.14" version="[14.0.3-preview,15.0.0)"/>
+      <dependency id="VSSDK.IDE.14" version="[14.0.4-preview,15.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.Text.Data.dll):
         Microsoft.VisualStudio.CoreUtility
@@ -47,7 +47,7 @@
         PresentationFramework
         WindowsBase
       -->
-      <dependency id="VSSDK.CoreUtility" version="[14.0.3-preview,)"/>
+      <dependency id="VSSDK.CoreUtility" version="[14.0.4-preview,)"/>
     </dependencies>
   </metadata>
   <files>

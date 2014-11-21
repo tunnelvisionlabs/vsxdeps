@@ -23,7 +23,7 @@
     </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2015 -->
-      <dependency id="VSSDK.IDE.14" version="[14.0.3-preview,15.0.0)"/>
+      <dependency id="VSSDK.IDE.14" version="[14.0.4-preview,15.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.GraphModel.dll):
         Microsoft.VisualStudio.OLE.Interop
@@ -35,7 +35,7 @@
         System.Xml
         System.Xml.Linq
       -->
-      <dependency id="VSSDK.OLE.Interop" version="[7.0.3,8.0.0)"/>
+      <dependency id="VSSDK.OLE.Interop" version="[7.0.4,8.0.0)"/>
     </dependencies>
   </metadata>
   <files>

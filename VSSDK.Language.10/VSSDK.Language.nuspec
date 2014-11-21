@@ -19,7 +19,7 @@
     </frameworkAssemblies>
     <dependencies>
       <!-- Visual Studio 2010 -->
-      <dependency id="VSSDK.IDE.10" version="[10.0.3,11.0.0)"/>
+      <dependency id="VSSDK.IDE.10" version="[10.0.4,11.0.0)"/>
       <!--
       Exposed Dependencies (Microsoft.VisualStudio.Language.Intellisense.dll):
         Microsoft.VisualStudio.CoreUtility
@@ -31,8 +31,8 @@
       Exposed Dependencies (Microsoft.VisualStudio.Language.StandardClassification.dll):
         Microsoft.VisualStudio.Text.Logic
       -->
-      <dependency id="VSSDK.CoreUtility" version="[10.0.3,)"/>
-      <dependency id="VSSDK.Text" version="[10.0.3,)"/>
+      <dependency id="VSSDK.CoreUtility" version="[10.0.4,)"/>
+      <dependency id="VSSDK.Text" version="[10.0.4,)"/>
     </dependencies>
   </metadata>
   <files>
