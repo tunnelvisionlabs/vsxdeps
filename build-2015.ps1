@@ -29,6 +29,7 @@ $packages = @(
 	'VSSDK.Language.14'
 	'VSSDK.LanguageService.14'
 	'VSSDK.NavigateTo.14'
+	'VSSDK.Settings.14'
 	'VSSDK.Shell.14'
 	'VSSDK.Text.14'
 	'VSSDK.Threading.14'
