@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.Settings.10</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package provides the Visual Studio "Settings" reference assembly used by Visual Studio 2010 and newer.
+
+      Microsoft.VisualStudio.Settings.dll
+    </description>
+    <summary>Visual Studio (Settings) for Visual Studio 2010+</summary>
+    <tags>vssdk vs2010 vs2012 vs2013 vs2015</tags>
+    <dependencies>
+      <!-- Visual Studio 2010 -->
+      <dependency id="VSSDK.IDE.10" version="[10.0.4,11.0.0)"/>
+      <!--
+      Exposed Dependencies (Microsoft.VisualStudio.Settings.dll):
+        (none)
+      -->
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Tools -->
+
+    <file src="install.ps1" target="tools"/>
+
+    <!-- Reference assemblies -->
+
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Settings.dll" target="lib\net40"/>
+    <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Settings.xml" target="lib\net40"/>
+  </files>
+</package>

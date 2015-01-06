@@ -31,6 +31,7 @@ $packages = @(
 	'VSSDK.Language.11'
 	'VSSDK.LanguageService.11'
 	'VSSDK.NavigateTo.11'
+	'VSSDK.Settings.11'
 	'VSSDK.Shell.11'
 	'VSSDK.Text.11'
 	'VSSDK.TemplateWizardInterface.11'
