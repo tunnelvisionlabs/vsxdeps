@@ -12,6 +12,7 @@ $packages = @(
 	# Visual Studio 2010 Metadata Package
 	'VSSDK.IDE.10'
 	'VSSDK.IDE.10Only'
+	'VSSDK.IDE.Deploy.10'
 
 	# Immutable COM-interop packages
 	'VSSDK.Debugger.Interop.10'

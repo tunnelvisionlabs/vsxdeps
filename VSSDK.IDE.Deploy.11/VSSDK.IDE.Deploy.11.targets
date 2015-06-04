@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PrepareForRunDependsOn>
+      $(PrepareForRunDependsOn);
+      DeployToVisualStudio2012
+    </PrepareForRunDependsOn>
+  </PropertyGroup>
+
+  <Target Name="DeployToVisualStudio2012"
+          Condition="'$(DevEnv11Dir)' != '' AND '$(VisualStudioVersion)' != '11.0' AND '$(BuildingInsideVisualStudio)' == 'True'">
+    <Message Importance="high" Text="Deploying extension to Visual Studio 2012..."/>
+    <MSBuild Projects="$(MSBuildProjectFullPath)"
+             Targets="PrepareForRun"
+             Properties="VisualStudioVersion=11.0;BuildingInsideVisualStudio=False;DeployExtension=True;Configuration=$(Configuration);Platform=$(Platform)"/>
+  </Target>
+</Project>

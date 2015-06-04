@@ -12,6 +12,7 @@ $packages = @(
 	# Visual Studio 2015 Metadata Package
 	'VSSDK.IDE.14'
 	'VSSDK.IDE.14Only'
+	'VSSDK.IDE.Deploy.14'
 
 	# Immutable COM-interop packages
 	'VSSDK.Debugger.Interop.14'
