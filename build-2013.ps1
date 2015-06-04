@@ -12,6 +12,7 @@ $packages = @(
 	# Visual Studio 2013 Metadata Package
 	'VSSDK.IDE.12'
 	'VSSDK.IDE.12Only'
+	'VSSDK.IDE.Deploy.12'
 
 	# Immutable COM-interop packages
 	'VSSDK.Debugger.Interop.12'

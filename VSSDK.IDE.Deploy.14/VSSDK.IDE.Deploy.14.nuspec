@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.IDE.Deploy.14</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This package configures a Visual Studio extension to deploy to the Visual Studio 2015 experimental instance when building within Visual Studio.
+    </description>
+    <summary>Deploy to Visual Studio 2015</summary>
+    <tags>vssdk vs2015</tags>
+    <developmentDependency>true</developmentDependency>
+    <dependencies>
+      <!-- Visual Studio 2015 -->
+      <dependency id="VSSDK.IDE.14" version="[14.0.4-preview,15.0.0)"/>
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="VSSDK.IDE.Deploy.14.props" target="build"/>
+    <file src="VSSDK.IDE.Deploy.14.targets" target="build"/>
+  </files>
+</package>
