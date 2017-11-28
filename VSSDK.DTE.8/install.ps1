@@ -6,7 +6,6 @@ foreach ($reference in $project.Object.References)
 	{
 	"^envdte80$"
 		{
-			$reference.CopyLocal = $false;
 			$reference.EmbedInteropTypes = $false;
 		}
 	default

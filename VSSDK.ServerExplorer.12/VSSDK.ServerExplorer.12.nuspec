@@ -35,8 +35,6 @@
   <files>
     <!-- Tools -->
 
-    <file src="install.ps1" target="tools"/>
-
     <!-- Reference assemblies -->
 
     <file src="$VSIDE$\Microsoft.VisualStudio.ServerExplorer.dll" target="lib\net45"/>

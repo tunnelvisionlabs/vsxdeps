@@ -54,8 +54,6 @@
   <files>
     <!-- Tools -->
 
-    <file src="install.ps1" target="tools"/>
-
     <!-- Reference assemblies -->
 
     <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Shell.10.0.dll" target="lib\net40"/>

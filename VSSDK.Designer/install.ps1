@@ -6,7 +6,6 @@ foreach ($reference in $project.Object.References)
 	{
 	"^microsoft\.visualstudio\.designer\.interfaces$"
 		{
-			$reference.CopyLocal = $false;
 			$reference.EmbedInteropTypes = $false;
 		}
 	default

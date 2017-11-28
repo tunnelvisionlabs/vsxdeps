@@ -6,7 +6,6 @@ foreach ($reference in $project.Object.References)
 	{
 	"^(?:stdole|envdte)$"
 		{
-			$reference.CopyLocal = $false;
 			$reference.EmbedInteropTypes = $false;
 		}
 	default

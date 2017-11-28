@@ -12,6 +12,9 @@ $packages = @(
 	# Visual Studio Base Metadata Package
 	'VSSDK.IDE'
 
+	# Visual Studio Base Build Support
+	'VSSDK.Build'
+
 	# Immutable COM-interop packages
 	'VSSDK.Designer'
 	'VSSDK.DTE'
