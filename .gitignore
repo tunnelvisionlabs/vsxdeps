@@ -4,8 +4,9 @@
 /packages-2010/
 /packages-2012/
 /packages-2013/
+/packages-2015/
 
-*.sln.ide/
+.vs/
 bin/
 obj/
 packages/
