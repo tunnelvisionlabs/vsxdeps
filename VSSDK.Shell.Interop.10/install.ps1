@@ -6,7 +6,6 @@ foreach ($reference in $project.Object.References)
 	{
 	"^microsoft\.visualstudio\.shell\.interop\.10\.0$"
 		{
-			$reference.CopyLocal = $false;
 			$reference.EmbedInteropTypes = $false;
 		}
 	default

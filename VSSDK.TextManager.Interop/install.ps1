@@ -6,7 +6,6 @@ foreach ($reference in $project.Object.References)
 	{
 	"^microsoft\.visualstudio\.textmanager\.interop$"
 		{
-			$reference.CopyLocal = $false;
 			$reference.EmbedInteropTypes = $false;
 		}
 	default

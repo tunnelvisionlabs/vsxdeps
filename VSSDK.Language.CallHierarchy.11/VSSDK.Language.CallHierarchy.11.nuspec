@@ -33,8 +33,6 @@
   <files>
     <!-- Tools -->
 
-    <file src="install.ps1" target="tools"/>
-
     <!-- Reference assemblies -->
 
     <file src="$VSIDE$\PrivateAssemblies\Microsoft.VisualStudio.Language.CallHierarchy.dll" target="lib\net45"/>

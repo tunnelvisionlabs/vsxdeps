@@ -6,7 +6,6 @@ foreach ($reference in $project.Object.References)
 	{
 	"^microsoft\.visualstudio\.debugger\.interopa$"
 		{
-			$reference.CopyLocal = $false;
 			$reference.EmbedInteropTypes = $false;
 		}
 	default

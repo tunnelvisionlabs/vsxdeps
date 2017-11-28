@@ -41,8 +41,6 @@
   <files>
     <!-- Tools -->
 
-    <file src="install.ps1" target="tools"/>
-
     <!-- Reference assemblies -->
 
     <file src="$VSIDE$\PublicAssemblies\Microsoft.VisualStudio.GraphModel.dll" target="lib\net45"/>

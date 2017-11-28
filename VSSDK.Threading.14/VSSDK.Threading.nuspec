@@ -24,8 +24,6 @@
   <files>
     <!-- Tools -->
 
-    <file src="install.ps1" target="tools"/>
-
     <!-- Reference assemblies -->
 
     <file src="$VSSDK$\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Threading.dll" target="lib\net45"/>

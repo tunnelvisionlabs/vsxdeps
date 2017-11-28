@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+
+    <ItemGroup>
+      <!-- VSSDK.ComponentModelHost -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.ComponentModelHost.dll" />
+
+      <!-- VSSDK.CoreUtility -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.CoreUtility.dll" />
+
+      <!-- VSSDK.Data -->
+      <SuppressFromVsix Include="Microsoft.Data.ConnectionUI.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Data.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Data.Core.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Data.Framework.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Data.Services.dll" />
+
+      <!-- VSSDK.Debugger.Interop -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Debugger.Interop.10.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Debugger.Interop.11.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Debugger.Interop.12.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Debugger.Interop.14.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Debugger.Interop.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Debugger.InteropA.dll" />
+
+      <!-- VSSDK.DebuggerVisualizers -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.DebuggerVisualizers.dll" />
+
+      <!-- VSSDK.Designer -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Designer.Interfaces.dll" />
+
+      <!-- VSSDK.DTE -->
+      <SuppressFromVsix Include="envdte90.dll" />
+      <SuppressFromVsix Include="envdte90a.dll" />
+      <SuppressFromVsix Include="envdte80.dll" />
+      <SuppressFromVsix Include="envdte100.dll" />
+      <SuppressFromVsix Include="envdte.dll" />
+      <SuppressFromVsix Include="stdole.dll" />
+
+      <!-- VSSDK.Editor -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Editor.dll" />
+
+      <!-- VSSDK.GraphModel -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.GraphModel.dll" />
+
+      <!-- VSSDK.Language -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Language.Intellisense.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Language.StandardClassification.dll" />
+
+      <!-- VSSDK.Language.CallHierarchy -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Language.CallHierarchy.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.CallHierarchy.Package.Definitions.dll" />
+
+      <!-- VSSDK.Language.CSharp -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.CSharp.Services.Language.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.CSharp.Services.Language.Interop.dll" />
+
+      <!-- VSSDK.LanguageService -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Package.LanguageService.10.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Package.LanguageService.11.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Package.LanguageService.12.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Package.LanguageService.14.0.dll" />
+
+      <!-- VSSDK.NavigateTo -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Language.NavigateTo.Interfaces.dll" />
+
+      <!-- VSSDK.OLE.Interop -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.OLE.Interop.dll" />
+
+      <!-- VSSDK. -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.ServerExplorer.dll" />
+
+      <!-- VSSDK. -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Settings.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Settings.11.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Settings.12.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Settings.14.0.dll" />
+
+      <!-- VSSDK.Shell -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.9.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.10.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.11.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.12.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.14.0.dll" />
+
+      <!-- VSSDK.Shell.Immutable -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Immutable.10.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Immutable.11.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Immutable.12.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Immutable.14.0.dll" />
+
+      <!-- VSSDK.Shell.Interop -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Interop.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Interop.8.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Interop.9.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Interop.10.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Interop.11.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Shell.Interop.12.0.dll" />
+
+      <!-- VSSDK.TemplateWizardInterface -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.TemplateWizardInterface.dll" />
+
+      <!-- VSSDK.Text -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Text.Data.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Text.Logic.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Text.UI.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Text.UI.Wpf.dll" />
+
+      <!-- VSSDK.TextManager.Interop -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.TextManager.Interop.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.TextManager.Interop.8.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.TextManager.Interop.9.0.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.TextManager.Interop.10.0.dll" />
+
+      <!-- VSSDK.Threading -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.Threading.dll" />
+
+      <!-- VSSDK.VSHelp -->
+      <SuppressFromVsix Include="Microsoft.VisualStudio.VSHelp.dll" />
+      <SuppressFromVsix Include="Microsoft.VisualStudio.VSHelp80.dll" />
+
+      <!-- VSSDK.VSLangProj -->
+      <SuppressFromVsix Include="VSLangProj.dll" />
+      <SuppressFromVsix Include="VSLangProj2.dll" />
+      <SuppressFromVsix Include="VSLangProj80.dll" />
+      <SuppressFromVsix Include="VSLangProj90.dll" />
+      <SuppressFromVsix Include="VSLangProj100.dll" />
+      <SuppressFromVsix Include="VSLangProj110.dll" />
+    </ItemGroup>
+
+  </PropertyGroup>
+</Project>

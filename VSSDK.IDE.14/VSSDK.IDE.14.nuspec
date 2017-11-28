@@ -12,9 +12,10 @@
     </description>
     <summary>Visual Studio 2015+</summary>
     <tags>vssdk vs2015</tags>
-    <frameworkAssemblies>
-      <frameworkAssembly assemblyName="System" targetFramework="net40"/>
-    </frameworkAssemblies>
+    <dependencies>
+      <!-- VSSDK common build support -->
+      <dependency id="VSSDK.Build" version="[7.0.4,8.0.0)"/>
+    </dependencies>
   </metadata>
   <files>
   </files>
